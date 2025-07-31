@@ -35,6 +35,23 @@ code {
   src: url('/public/fonts/inter/inter-700.woff2') format('woff2'); 
 }
 
+@font-face {
+  font-display: swap; 
+  font-family: 'Clask-Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/public/fonts/clash-grotesk/ClashGrotesk-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap; 
+  font-family: 'Clask-Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/public/fonts/clash-grotesk/ClashGrotesk-Medium.woff2') format('woff2');
+}
+
+
 .primaryButton {
   position: relative;
   display: inline-flex;
@@ -87,4 +104,9 @@ code {
 .primaryButton:disabled {
   border: #252A2D;
   color: #95A9B7;
+}
+
+.test {
+  font-family: "Clash-Grotesk";
+  color: white;
 }
