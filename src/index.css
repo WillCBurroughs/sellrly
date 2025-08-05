@@ -5,7 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+  to bottom, 
+  #00090D 0%, 
+  #00101A 50%, 
+  #00101A 100%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  background-size: cover;
   background-color: black;
+}
+
+.NavDesktop {
+  position: fixed;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 9, 13, 0.1) 0%,
+    rgba(0, 16, 26, 0.1) 50%,
+    rgba(0, 16, 26, 0.1) 100%
+  );
+  width: 100vw;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  margin-left: -20px;
+  margin-top: -20px;
+  
+  padding-right: 100px;
+}
+
+.login-signup{
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
 :root {
@@ -209,6 +247,18 @@ p {
   background: rgba(203, 224, 239, 0.10);;
   transition: 0.2s;
   scale: 0.97;
+  cursor: pointer;
+}
+
+.logoLeft{
+  padding-left: 30px;
+}
+
+.linksNavDesktop{
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 40px;
 }
 
 .secondaryButton:disabled {
@@ -230,7 +280,7 @@ p {
   background: linear-gradient(180deg, #9067FF 0%, #11B5E4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  cursor: pointer;
   background-clip: text;
   color: transparent;
 }

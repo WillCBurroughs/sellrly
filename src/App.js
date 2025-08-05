@@ -3,10 +3,22 @@ import './index.css';
 import PrimaryButton from './components/atoms/PrimaryButton';
 import SecondaryButton from './components/atoms/SecondaryButton';
 import NavBarItem from './components/atoms/NavBarItem';
+import LogoTagline from './components/atoms/LogoTagline';
+import NavBarDesktop from './components/molecules/NavBarDesktop';
+
 
 function App() {
   return (
     <>
+      <NavBarDesktop/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+            <br/>
+      <br/>
+      <br/>
+      <br/>
       <h1> H1 </h1>
       <h2> H2 </h2>
       <h3> H3 </h3>
@@ -23,6 +35,7 @@ function App() {
       <PrimaryButton text = "Primary Button"/>
       <SecondaryButton text = "Secondary Button"/> 
       <NavBarItem text = "Who we serve"/> 
+      <LogoTagline />
     </>
   );
 }
