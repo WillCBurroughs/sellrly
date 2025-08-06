@@ -4,6 +4,7 @@ import NavBarDesktop from './components/molecules/NavBarDesktop';
 import HomeAboveFold from './components/molecules/HomeAboveFold';
 import JumpDownButton from './components/atoms/JumpDownButton';
 import VideoDesktopHome from './components/molecules/VideoDesktopHome';
+import BenefitsDesktop from './components/molecules/BenefitsDesktop';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HomeAboveFold/>
       <JumpDownButton/>
       <VideoDesktopHome/>
+      <BenefitsDesktop/>
     </>
   );
 }
