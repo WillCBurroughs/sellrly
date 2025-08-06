@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../index.css'
-import sellerlyTagline from '../../images/sellerly-tagline.png'
+import SellrlyTagline from '../../images/SellrlyTagline.svg'
 
 function LogoTagline(props) {
   return (
@@ -8,7 +8,7 @@ function LogoTagline(props) {
         className='logoImage' 
         id={props.id || undefined} 
         alt={props.alt || "Logo"}
-        src={sellerlyTagline}
+        src={SellrlyTagline}
     />
   );
 }
