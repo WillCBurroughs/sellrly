@@ -19,6 +19,7 @@ function VideoDesktopHome(props) {
                 className="videoPlayer"
                 width="100%"
                 height="auto"
+                id='videoHome'
                 controls
             >
             <source src="/videos/intro.mp4" type="video/mp4" />

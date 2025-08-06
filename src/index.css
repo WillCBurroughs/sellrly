@@ -295,12 +295,12 @@ p {
 
 .TertiaryButton:hover {
   background-image: linear-gradient(134deg, #FF4F81 6.23%, #8A00E6 91.9%);
+  cursor: pointer;
 }
 
 .TertiaryButton:active {
   background-image: linear-gradient(134deg, #FF4F81 6.23%, #8A00E6 91.9%);
-  border: 1px, solid, #D4D2FC;
-
+  border: #D4D2FC;
 }
 
 .NavItem {
