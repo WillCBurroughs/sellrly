@@ -479,6 +479,11 @@ p {
   font-family: "Inter";
   font-size: 20px;
   line-height: 150%;
+  transition: 0.3s ease, color 0.3s ease;
+}
+
+.benefitTile:hover{
+ transform: scale(1.03);
 }
 
 .activeTile {
