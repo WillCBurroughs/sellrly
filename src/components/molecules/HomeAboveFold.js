@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import TertiaryButton from '../atoms/TertiaryButton';
+import AboveFoldImage from '../atoms/AboveFoldImage';
 
 
 function HomeAboveFold(props) {
@@ -23,7 +24,7 @@ function HomeAboveFold(props) {
         </div>
 
         <div className='rightHeroAboveFold'>
-            <p>Hello</p>
+            <AboveFoldImage />
         </div>
     </div>
   );
