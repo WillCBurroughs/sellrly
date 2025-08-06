@@ -1,30 +1,29 @@
 import React from 'react';
 import '../../index.css';
-import TertiaryButton from '../atoms/TertiaryButton';
-import AboveFoldImage from '../atoms/AboveFoldImage';
+import EmphasisIcon from '../atoms/EmphasisIcon';
 
 
 function VideoDesktopHome(props) {
   return (
-    <div className='contentBlock'>
-        <div className='leftHeroAboveFold'>
-            <h1>
-                Outsell. Outshine. Outdo.
-            </h1>
-            <p>You’ve worked hard. You picked great merchandise. Your set is picture-perfect. 
-                You’ve practiced your pitch so much your dog can recite it. Yet when game time came, 
-                you had fewer viewers than a group chat at 3 a.m.</p>
-            <p>
-                It’s not you—you did your job. But let’s face it: there’s a lot of noise out there.
-            </p>
-            <p>
-                <strong>Sellrly </strong>changes all that.
-            </p>
-            <TertiaryButton text = "Get Started" />
+    <div className='VideoDesktopHome'>
+        <div>
+            <EmphasisIcon text = "How it Works" />
         </div>
-
-        <div className='rightHeroAboveFold'>
-            <AboveFoldImage />
+        <div>
+            <h1>
+                What makes Sellrly the best platform for social sellers?
+            </h1>
+        </div>
+        <div className='videoArea'>
+            <video
+                className="videoPlayer"
+                width="100%"
+                height="auto"
+                controls
+            >
+            <source src="/videos/intro.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+            </video>
         </div>
     </div>
   );
