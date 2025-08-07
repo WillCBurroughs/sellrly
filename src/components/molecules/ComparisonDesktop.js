@@ -5,6 +5,7 @@ import Meta from '../../images/Meta.svg';
 import TikTok from '../../images/TikTok.svg';
 import Sellrly from '../../images/Sellrly.svg'
 import ComparisonRowDesktop from '../atoms/ComparisonRowDesktop';
+import PrimaryButton from '../atoms/PrimaryButton';
 
 function ComparisonDesktop(props) {
   return (
@@ -28,6 +29,10 @@ function ComparisonDesktop(props) {
                 <ComparisonRowDesktop text="Day Part Advertising" />
                 <ComparisonRowDesktop text="Analytics" />
                 <ComparisonRowDesktop layout = "1" text="Total Transparency" />
+                </div>
+
+                <div className='holdButton'>
+                    <PrimaryButton text = "Start a Campaign Now" />
                 </div>
             </div>
 

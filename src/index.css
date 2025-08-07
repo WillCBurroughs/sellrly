@@ -503,7 +503,7 @@ p {
   top: 2700px;
   left: 0;
   width: 100vw;
-  height: 900px;
+  height: 1150px;
   background-color: transparent;
   align-content: center;
   align-items: center;
@@ -511,7 +511,7 @@ p {
 
 .comparisonDesktopBackground {
   width: calc(100vw - 30px);
-  height: 880px;
+  height: 1080px;
   background-color: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.10);
   border-radius: 24px;
@@ -545,6 +545,7 @@ p {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
   align-items: left;
+  margin-top: 60px;
   margin-bottom: 40px;
   width: 100%;
 }
@@ -568,4 +569,10 @@ p {
   border-bottom: 1px solid #212D58;
   padding-bottom: 16px;
   align-items: right;
+}
+
+.holdButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
 }
