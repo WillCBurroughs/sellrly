@@ -5,6 +5,7 @@ import HomeAboveFold from './components/molecules/HomeAboveFold';
 import JumpDownButton from './components/atoms/JumpDownButton';
 import VideoDesktopHome from './components/molecules/VideoDesktopHome';
 import BenefitsDesktop from './components/molecules/BenefitsDesktop';
+import ComparisonDesktop from './components/molecules/ComparisonDesktop';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <JumpDownButton/>
       <VideoDesktopHome/>
       <BenefitsDesktop/>
+      <ComparisonDesktop/>
     </>
   );
 }
