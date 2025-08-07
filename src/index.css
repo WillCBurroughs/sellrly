@@ -528,3 +528,44 @@ p {
 .aquaBlue{
   color: #CBE0EF;
 }
+
+.tableContent {
+  width: 100%;
+}
+
+.Competitors,
+.comparisonRow {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr; 
+  align-items: center;
+  width: 100%;
+}
+
+.Competitors {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr;
+  align-items: left;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.competitorLogoCell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comparisonRow {
+  margin-bottom: 20px;
+  gap: 30px;
+  border-bottom: 1px solid #212D58;
+  padding-bottom: 16px;
+  align-items: right;
+}
