@@ -163,6 +163,7 @@ p {
 .bnr {
   font-size: 16px;
   font-weight: 400;
+  color: #95A9B7;
 }
 
 .stb {
@@ -579,9 +580,51 @@ p {
 }
 
 .FAQS {
-  top: 3800px
+  top: 3800px;
+  align-items: center;
+  flex-direction: row;
+  background-color: transparent;           
+  text-align: center; 
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;           
+  left: 0;
+  width: 100vw;
+  height: 840px;
 }
 
 #faqP{
   margin-top: 32px;
+}
+
+.accordion-title, .accordion-title-Active {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 500px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(149, 169, 183, 0.25);
+}
+
+.accordion-title{
+  color: rgba(203, 224, 239, 0.75);
+}
+
+.accordion-title-Active{
+  color: white;
+}
+
+.accordion-content {
+  text-align: left;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  color: #95A9B7;
+}
+
+.DropDown{
+  padding-right: 10px;
 }
