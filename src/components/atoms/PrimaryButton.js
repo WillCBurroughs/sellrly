@@ -3,7 +3,7 @@ import '../../index.css'
 
 function PrimaryButton(props) {
   return (
-    <button className='primaryButton'>
+    <button className='primaryButton' id = {props.id}>
       {props.text}
     </button>
   );
