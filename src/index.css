@@ -511,7 +511,7 @@ p {
   align-items: center;
 }
 
-.comparisonDesktopBackground {
+.comparisonDesktopBackground, .PreFooterDesktopBackground {
   width: calc(100vw - 30px);
   height: 1080px;
   background-color: rgba(255, 255, 255, 0.03);
@@ -519,6 +519,10 @@ p {
   border-radius: 24px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.PreFooterDesktopBackground {
+  height: 500px;
 }
 
 .holdContent {
@@ -608,6 +612,7 @@ p {
   margin-bottom: 20px;
   padding-bottom: 16px;
   border-bottom: 1px solid rgba(149, 169, 183, 0.25);
+  z-index: 10;
 }
 
 .accordion-title{
@@ -627,4 +632,65 @@ p {
 
 .DropDown{
   padding-right: 10px;
+}
+
+.PreFooterDesktop {
+  position: absolute;
+  top: 4400px;
+  left: 0;
+  width: 100vw;
+  height: 850px;
+  background-color: transparent;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.PreFooterDesktopBackground {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.preFooterBigDivDesktop{
+  width: calc(50vw - 60px);
+  margin: 10px;
+  height: 450px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: blue;
+  transition: background-color .2s ease, filter .2s ease, opacity .2s ease;
+}
+
+.preFooterBigDivDesktop.active{
+  background: linear-gradient(180deg, #9067FF 0%, #11B5E4 100%);
+}
+
+.preFooterBigDivDesktop.inactive{
+  background-color: transparent;
+}
+
+.bigdesktopheader {
+  padding-left: 64px;
+  padding-top: 64px;
+}
+
+.bigdesktopP {
+  padding-left: 64px;
+}
+
+#secondaryLeftDesktopBig{
+  margin-left: 64px;
+  margin-top: 50px;
+}
+
+#secondaryRightDesktopBig {
+  margin-left: 64px;
+  margin-top: 190px;
 }
