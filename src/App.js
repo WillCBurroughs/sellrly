@@ -8,6 +8,7 @@ import BenefitsDesktop from './components/molecules/BenefitsDesktop';
 import ComparisonDesktop from './components/molecules/ComparisonDesktop';
 import FAQSDesktop from './components/molecules/FAQSDesktop';
 import PreFooterDesktop from './components/molecules/PreFooterDesktop';
+import FooterDesktop from './components/molecules/FooterDesktop';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <ComparisonDesktop/>
       <FAQSDesktop/>
       <PreFooterDesktop/>
+      <FooterDesktop/>
     </>
   );
 }
