@@ -1,24 +1,36 @@
 export const accordionData = [
   {
-    title: 'Section 1',
-    content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-    laborum cupiditate possimus labore, hic temporibus velit dicta earum
-    suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-    voluptatem.`
+    title: 'How does Sellrly’s self-serve advertising work?',
+    content: `Our platform lets you easily create and launch ad campaigns for your live streams. 
+    Simply choose your audience, set your budget, and select your campaign timing. 
+    We handle the delivery across the web while you focus on selling.`
   },
   {
-    title: 'Section 2',
-    content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-    reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-    quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-    pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-    quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-    Repudiandae, mollitia id reprehenderit a ab odit!`
+    title: 'Can I run ads if I don’t have ad creative?',
+    content: `Absolutely. Sellrly offers a built-in ad creation tool that transforms your concepts intoprofessional, 
+    ready-to-run ads—no design experience needed.`
   },
   {
-    title: 'Section 3',
-    content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-    quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-    dolor ut sequi minus iste? Quas?`
+    title: 'Do I have to advertise only when I’m live?',
+    content: `No. While most sellers use Sellrly to drive real-time viewers,
+     you can also run campaigns before or 
+     after streams to build awareness and retarget potential buyers.`
+  },
+    {
+    title: 'How do I know if my campaign is working?',
+    content: `Once your campaign ends, we provide a full analytics report showing impressions, 
+    clicks, CTR, audience reach, and 
+    conversions—so you know exactly what’s driving results.`
+    },
+    {
+    title: 'What platforms will my ads appear on?',
+    content: `Sellrly reaches across the web and multiple platforms—not 
+    just the one you stream on—allowing
+     you to capture up to 90% more potential buyers.`
+  },
+    {
+    title: 'How much does it cost to advertise?',
+    content: `You control the budget. Start small or scale up—we optimize your spend 
+    to deliver maximum reach and engagement for every dollar.`
   }
 ];
