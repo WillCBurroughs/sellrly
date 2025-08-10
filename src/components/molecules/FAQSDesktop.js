@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import TertiaryButton from '../atoms/TertiaryButton';
-import AboveFoldImage from '../atoms/AboveFoldImage';
+import DesktopFAQSDropdown from '../atoms/DesktopFAQSDropdown';
 
 
 function FAQSDesktop(props) {
@@ -15,7 +15,7 @@ function FAQSDesktop(props) {
         </div>
 
         <div className='rightHeroAboveFold'>
-            <AboveFoldImage />
+            <DesktopFAQSDropdown />
         </div>
     </div>
   );
