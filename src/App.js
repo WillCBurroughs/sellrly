@@ -6,6 +6,7 @@ import JumpDownButton from './components/atoms/JumpDownButton';
 import VideoDesktopHome from './components/molecules/VideoDesktopHome';
 import BenefitsDesktop from './components/molecules/BenefitsDesktop';
 import ComparisonDesktop from './components/molecules/ComparisonDesktop';
+import FAQSDesktop from './components/molecules/FAQSDesktop';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <VideoDesktopHome/>
       <BenefitsDesktop/>
       <ComparisonDesktop/>
+      <FAQSDesktop/>
     </>
   );
 }

@@ -142,6 +142,7 @@ p {
 .blr{
   font-size: 20px;
   font-weight: 400;
+  color: rgba(203, 224, 239, 0.75);
 }
 
 .bmb {
@@ -575,4 +576,12 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 60px;
+}
+
+.FAQS {
+  top: 3800px
+}
+
+#faqP{
+  margin-top: 32px;
 }
