@@ -747,3 +747,11 @@ p {
   gap: 20px;
   margin-top: 30px;
 }
+
+.navlink-reset,
+.navlink-reset:visited,
+.navlink-reset:hover,
+.navlink-reset:active {
+  text-decoration: none;
+  color: inherit; /* use the color from the child component */
+}
