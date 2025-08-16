@@ -8,7 +8,7 @@ function AboveFoldImage(props) {
         className='HeroImage' 
         id={props.id || undefined} 
         alt={props.alt || "Logo"}
-        src={HeroImage}
+        src={props.src || HeroImage}
     />
   );
 }
