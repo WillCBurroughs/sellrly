@@ -762,3 +762,123 @@ p {
   text-decoration: none;
   color: inherit; 
 }
+
+.holdServicesServices {
+  position: absolute;
+  padding: 100px;
+  top: 700px;
+  left: 0;
+  right: 0;
+}
+
+.benefitTextServices {
+  margin-bottom: 30px;
+}
+
+.mainContentDesktopServices {
+  width: calc(100vw - 200px);
+  height: 350px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(0, 16, 33, 0.14) 0%, rgba(0, 25, 51, 0.14) 100%);
+  border-radius: 32px;
+  gap: 32px;
+  position: relative;
+  border: 1px solid;
+  box-shadow: 0 4px 128px 0 rgba(255, 79, 129, 0.16);
+  margin-bottom: 60px;
+}
+
+.mainContentDesktopServices::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;                    
+  border-radius: inherit;
+  background: linear-gradient(314deg, #FF4F81 2.78%, #8A00E6 88.45%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+}
+
+.TextContentDesktopServices {
+  width: 50%;
+  padding: 50px;
+  height: 100%;
+  margin-top: 100px;
+}
+
+
+.SecondaryHeaderDesktopServices {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.paragraphContentDesktopServices {
+  margin-bottom: 10px;
+}
+
+.ImageContentDesktopServices {
+  padding: 20px;
+}
+
+#TrackYourAnalytics{
+  box-shadow: 0 4px 128px 0 rgba(138, 56, 245, 0.16);
+  flex-direction: row-reverse;
+}
+
+#TrackYourAnalytics::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;                    
+  border-radius: inherit;
+  background: linear-gradient(180deg, #9067FF 0%, #11B5E4 100%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+}
+
+#GetMoreViews {
+  box-shadow: 0 4px 128px 0 rgba(243, 124, 33, 0.16);;
+}
+
+#GetMoreViews::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;                    
+  border-radius: inherit;
+  background: linear-gradient(180deg, #FF7C58 0%, #FFB3A6 100%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+}
+
+#MakeMoreSales {
+  box-shadow: 0 4px 128px 0 rgba(144, 103, 255, 0.16);
+}
+
+#MakeMoreSales::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;                    
+  border-radius: inherit;
+  background: linear-gradient(180deg, #D4D2FC 66.43%, #A6A0F8 100.91%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+}

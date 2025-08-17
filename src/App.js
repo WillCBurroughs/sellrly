@@ -10,6 +10,7 @@ import FAQSDesktop from './components/molecules/FAQSDesktop';
 import PreFooterDesktop from './components/molecules/PreFooterDesktop';
 import FooterDesktop from './components/molecules/FooterDesktop';
 import ServicesAboveFold from './components/molecules/ServicesAboveFold';
+import ServicesServicesDesktop from './components/molecules/ServicesServicesDesktop';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -34,7 +35,10 @@ function NotFound()    { return <div style={{padding:0}}>404</div>; }
 // Services page
 function ServicesPage()  { 
   return (
+    <>
     <ServicesAboveFold/>
+    <ServicesServicesDesktop/>
+    </>
   )
 }
 
