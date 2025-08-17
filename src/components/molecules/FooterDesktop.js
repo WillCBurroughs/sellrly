@@ -9,7 +9,7 @@ import LinkedIn from '../../images/Linkedin.svg'
 
 function FooterDesktop(props) {
   return (
-    <div className='FooterDesktop'>
+    <div className='FooterDesktop' id= {props.id}>
         <img className = "SellrlyFooter" src={SellrlyFooter} alt='Sellrly Logo'/>
         <h2 className='OutshineFooterDesktop'>Outsell. Outshine. Outdo.</h2>
         <PrimaryButton text = "Get Started with Sellrly" id = "FooterPrimary"/>

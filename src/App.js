@@ -40,6 +40,9 @@ function ServicesPage()  {
     <ServicesAboveFold/>
     <ServicesServicesDesktop/>
     <TransformCampaignSectionDesktop id = "TransformServices"/>
+    <FAQSDesktop id = "FAQSDesktopServices"/>
+    <PreFooterDesktop id = "PreFooterDesktopServices"/>
+    <FooterDesktop id = "FooterDesktopServices" />
     </>
   )
 }
