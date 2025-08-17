@@ -54,6 +54,10 @@ function WhoWeServe() {
     <>
       <WhoWeServeDesktopHero/> 
       <WhoWeServeContainerDesktop/>
+      <TransformCampaignSectionDesktop id = "TransformWhoWeServe"/>
+      <FAQSDesktop id = "FAQSDesktopWhoWeServe"/>
+      <PreFooterDesktop id = "PreFooterDesktopWhoWeServe"/>
+      <FooterDesktop id = "FooterDesktopWhoWeServe" />
     </>
   )
 }

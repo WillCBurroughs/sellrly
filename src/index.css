@@ -1007,3 +1007,26 @@ p {
   line-height: 1;
   align-items: center;
 }
+
+#row-reverse{
+  flex-direction: row-reverse;
+}
+
+/* 500, 600, 1000 */
+
+#TransformWhoWeServe{
+  top: 4400px;
+  margin: 0 auto;
+}
+
+#FAQSDesktopWhoWeServe{
+  top: 4900px;
+}
+
+#PreFooterDesktopWhoWeServe{
+  top: 5500px;
+}
+
+#FooterDesktopWhoWeServe{
+  top: 6500px;
+}
