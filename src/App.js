@@ -11,6 +11,7 @@ import PreFooterDesktop from './components/molecules/PreFooterDesktop';
 import FooterDesktop from './components/molecules/FooterDesktop';
 import ServicesAboveFold from './components/molecules/ServicesAboveFold';
 import ServicesServicesDesktop from './components/molecules/ServicesServicesDesktop';
+import TransformCampaignSectionDesktop from './components/atoms/TransformCampaignSectionDesktop';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -38,6 +39,7 @@ function ServicesPage()  {
     <>
     <ServicesAboveFold/>
     <ServicesServicesDesktop/>
+    <TransformCampaignSectionDesktop id = "TransformServices"/>
     </>
   )
 }
