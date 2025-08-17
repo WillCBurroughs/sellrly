@@ -13,6 +13,7 @@ import ServicesAboveFold from './components/molecules/ServicesAboveFold';
 import ServicesServicesDesktop from './components/molecules/ServicesServicesDesktop';
 import TransformCampaignSectionDesktop from './components/atoms/TransformCampaignSectionDesktop';
 import WhoWeServeDesktopHero from './components/molecules/WhoWeServeDesktopHero';
+import WhoWeServeContainerDesktop from './components/molecules/WhoWeServeContainerDesktop';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -52,6 +53,7 @@ function WhoWeServe() {
   return (
     <>
       <WhoWeServeDesktopHero/> 
+      <WhoWeServeContainerDesktop/>
     </>
   )
 }
