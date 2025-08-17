@@ -884,7 +884,7 @@ p {
 }
 
 .TransformCampaignDesktop {
-  width: calc(100vw - 40px);
+  width: calc(100vw - 60px);
   height: 440px;
   position: absolute;
   left: 50%;
@@ -892,9 +892,31 @@ p {
   display: flex;
   background: linear-gradient(180deg, #9067FF 0%, #11B5E4 100%);
   border-radius: 32px;
+  padding: 20px;
+  gap: 30px;
 }
 
 #TransformServices {
   top: 2900px;
   margin: 0 auto;
+}
+
+.TransformCampaignDesktopTextHolder {
+  width: 50%;
+  border-radius: 24px;
+  background: linear-gradient(180deg, rgba(0, 16, 33, 0.25) 0%, rgba(0, 25, 51, 0.25) 100%);
+  box-shadow: 0 4px 128px 0 rgba(33, 193, 243, 0.10);
+}
+
+.TransformCampaignDesktopImageHolder {
+  width: 50%;
+}
+
+.ImageInCampaignDesktop {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+  border-radius: inherit; 
+  display: block; 
+  border-radius: 32px;
 }
