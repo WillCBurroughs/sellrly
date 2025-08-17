@@ -12,6 +12,7 @@ import FooterDesktop from './components/molecules/FooterDesktop';
 import ServicesAboveFold from './components/molecules/ServicesAboveFold';
 import ServicesServicesDesktop from './components/molecules/ServicesServicesDesktop';
 import TransformCampaignSectionDesktop from './components/atoms/TransformCampaignSectionDesktop';
+import WhoWeServeDesktopHero from './components/molecules/WhoWeServeDesktopHero';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -50,7 +51,7 @@ function ServicesPage()  {
 function WhoWeServe() {
   return (
     <>
-
+      <WhoWeServeDesktopHero/> 
     </>
   )
 }
