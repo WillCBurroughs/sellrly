@@ -7,7 +7,7 @@ function PreFooterDesktop(props) {
   const [active, setActive] = React.useState("left");
 
   return (
-    <div className='PreFooterDesktop'>
+    <div className='PreFooterDesktop' id = {props.id}>
         <div className='PreFooterDesktopBackground'>
               
               <div  

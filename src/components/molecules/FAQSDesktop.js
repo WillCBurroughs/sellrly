@@ -6,7 +6,7 @@ import DesktopFAQSDropdown from '../atoms/DesktopFAQSDropdown';
 
 function FAQSDesktop(props) {
   return (
-    <div className='FAQS'>
+    <div className='FAQS' id= {props.id}>
         <div className='leftHeroAboveFold'>
             <h1>
                 Frequently Asked Questions
