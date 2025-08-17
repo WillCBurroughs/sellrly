@@ -47,6 +47,14 @@ function ServicesPage()  {
   )
 }
 
+function WhoWeServe() {
+  return (
+    <>
+
+    </>
+  )
+}
+
 function Layout() {
   return (
     <>
@@ -62,6 +70,7 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path='Services' element = {<ServicesPage/>} />
+        <Route path='Who-We-Serve' element = {<WhoWeServe/>} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
