@@ -906,6 +906,7 @@ p {
   border-radius: 24px;
   background: linear-gradient(180deg, rgba(0, 16, 33, 0.25) 0%, rgba(0, 25, 51, 0.25) 100%);
   box-shadow: 0 4px 128px 0 rgba(33, 193, 243, 0.10);
+  padding: 20px;
 }
 
 .TransformCampaignDesktopImageHolder {
@@ -919,4 +920,22 @@ p {
   border-radius: inherit; 
   display: block; 
   border-radius: 32px;
+}
+
+.TransformSellingDesktop{
+  width: 60%;
+  padding-left: 50px;
+  padding-top: 60px;
+  font-weight: 400;
+}
+
+.TakePlatformCampaignDesktop{
+  width: 60%;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+#StartCampaignNowBTN{
+  margin-left: 50px;
+  margin-top: 50px;
 }
