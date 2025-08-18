@@ -797,7 +797,7 @@ p {
   margin-bottom: 30px;
 }
 
-.mainContentDesktopServices, .mainContentDesktopWhoWeServe {
+.mainContentDesktopServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
   width: calc(100vw - 200px);
   height: 350px;
   display: flex;
@@ -811,12 +811,16 @@ p {
   margin-bottom: 60px;
 }
 
+.mainContentAboutBanner {
+  height: 300px;
+}
+
 .mainContentDesktopWhoWeServe {
   box-shadow: 0 4px 128px 0 rgba(166, 160, 248, 0.14);
   height: 450px;
 }
 
-.mainContentDesktopServices::before {
+.mainContentDesktopServices::before, .mainContentAboutBanner::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -1040,4 +1044,27 @@ p {
 
 .holdAboutParagraph {
   width: 60%;
+}
+
+#HoldSecondBanner {
+  background: linear-gradient(180deg, #D4D2FC 66.43%, #A6A0F8 100.91%);
+  box-shadow: none;
+}
+
+#HoldSecondBanner::before {
+    background: transparent;
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+}
+
+#SecondBannerPTAG{
+  color: rgba(78, 98, 112, 1)
+}
+
+#SecondBannerHTAG{
+  color: rgba(14, 16, 61, 1);
 }
