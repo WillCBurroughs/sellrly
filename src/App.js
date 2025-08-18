@@ -16,6 +16,7 @@ import WhoWeServeDesktopHero from './components/molecules/WhoWeServeDesktopHero'
 import WhoWeServeContainerDesktop from './components/molecules/WhoWeServeContainerDesktop';
 import AbousUsDesktopFold from './components/molecules/AboutUsDesktopFold';
 import HoldBannersAboutUsDesktop from './components/molecules/HoldBannersAboutUsDesktop';
+import FoundersSectionDesktop from './components/molecules/FoundersSectionDesktop';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -69,6 +70,7 @@ function AboutUs(){
     <>
       <AbousUsDesktopFold/>
       <HoldBannersAboutUsDesktop/>
+      <FoundersSectionDesktop/>
     </>
   )
 }
