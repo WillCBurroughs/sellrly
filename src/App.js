@@ -14,6 +14,7 @@ import ServicesServicesDesktop from './components/molecules/ServicesServicesDesk
 import TransformCampaignSectionDesktop from './components/atoms/TransformCampaignSectionDesktop';
 import WhoWeServeDesktopHero from './components/molecules/WhoWeServeDesktopHero';
 import WhoWeServeContainerDesktop from './components/molecules/WhoWeServeContainerDesktop';
+import AbousUsDesktopFold from './components/molecules/AboutUsDesktopFold';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -62,6 +63,14 @@ function WhoWeServe() {
   )
 }
 
+function AboutUs(){
+  return (
+    <>
+      <AbousUsDesktopFold/>
+    </>
+  )
+}
+
 function Layout() {
   return (
     <>
@@ -78,6 +87,7 @@ export default function App() {
         <Route index element={<HomePage />} />
         <Route path='Services' element = {<ServicesPage/>} />
         <Route path='Who-We-Serve' element = {<WhoWeServe/>} />
+        <Route path="About-Us" element = {<AboutUs/>} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
