@@ -1068,3 +1068,14 @@ p {
 #SecondBannerHTAG{
   color: rgba(14, 16, 61, 1);
 }
+
+.holdFoundersDesktop{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1600px;
+  width: 100vw;
+  height: 1200px;
+  background: radial-gradient(48.43% 50.36% at 4.03% 55.6%, rgba(255, 79, 129, 0.20) 0%, rgba(138, 56, 245, 0.10) 46.63%, rgba(1, 16, 26, 0.00) 100%), radial-gradient(47.98% 50.07% at 88.13% 48.21%, rgba(255, 79, 129, 0.20) 0%, rgba(138, 56, 245, 0.10) 46.63%, rgba(1, 16, 26, 0.00) 100%);
+  left: 0;
+}
