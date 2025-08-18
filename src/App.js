@@ -15,6 +15,7 @@ import TransformCampaignSectionDesktop from './components/atoms/TransformCampaig
 import WhoWeServeDesktopHero from './components/molecules/WhoWeServeDesktopHero';
 import WhoWeServeContainerDesktop from './components/molecules/WhoWeServeContainerDesktop';
 import AbousUsDesktopFold from './components/molecules/AboutUsDesktopFold';
+import HoldBannersAboutUsDesktop from './components/molecules/HoldBannersAboutUsDesktop';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -67,6 +68,7 @@ function AboutUs(){
   return (
     <>
       <AbousUsDesktopFold/>
+      <HoldBannersAboutUsDesktop/>
     </>
   )
 }
