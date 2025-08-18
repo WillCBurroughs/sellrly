@@ -4,7 +4,7 @@ import Arrow from '../../images/Arrow.svg'
 
 function EmphasisIcon(props) {
   return (
-    <p className='Emphasis blb'>
+    <p className='Emphasis blb' id={props.id}>
         {props.text}
     </p>
   );
