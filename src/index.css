@@ -1163,6 +1163,11 @@ p {
   top: 2200px;
 }
 
-      /* <FAQSDesktop id = "FAQSDesktopContactUs"/>
-      <PreFooterDesktop id = "PreFooterDesktopContactUs"/>
-      <FooterDesktop id = "FooterDesktopContactUs" /> */
+.holdContactFormDesktop{
+  margin-top: 50px;
+  width: 560px;
+  height: 530px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.03);
+}
