@@ -1075,7 +1075,7 @@ p {
   position: absolute;
   top: 1600px;
   width: 100vw;
-  height: 1200px;
+  height: 1500px;
   background: radial-gradient(48.43% 50.36% at 4.03% 55.6%, rgba(255, 79, 129, 0.20) 0%, rgba(138, 56, 245, 0.10) 46.63%, rgba(1, 16, 26, 0.00) 100%), radial-gradient(47.98% 50.07% at 88.13% 48.21%, rgba(255, 79, 129, 0.20) 0%, rgba(138, 56, 245, 0.10) 46.63%, rgba(1, 16, 26, 0.00) 100%);
   left: 0;
 }
@@ -1085,7 +1085,7 @@ p {
   display: flex;
   margin: 0 auto;
   flex-direction: column;
-  height: 1000px;
+  height: 1300px;
   margin: 100px;
   width: calc(100vw - 400px);
   left: 0;
@@ -1095,4 +1095,13 @@ p {
 
 #SmallEmphasis{
   align-self: flex-start; 
+}
+
+.FounderDesktop{
+  width: calc(100vw - 200px);
+  height: 550px;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.03);
+  margin-bottom: 60px;
 }
