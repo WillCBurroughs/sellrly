@@ -83,6 +83,9 @@ function ContactUs(){
   return (
     <>
       <ContactUsDesktopFold/>
+      <FAQSDesktop id = "FAQSDesktopContactUs"/>
+      <PreFooterDesktop id = "PreFooterDesktopContactUs"/>
+      <FooterDesktop id = "FooterDesktopContactUs" />
     </>
   )
 }
