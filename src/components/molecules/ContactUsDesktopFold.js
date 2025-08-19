@@ -1,9 +1,7 @@
 import React from 'react';
 import '../../index.css';
-import TertiaryButton from '../atoms/TertiaryButton';
-import WhoWeServe from '../../images/WhoWeServe.svg'
-import AboveFoldImage from '../atoms/AboveFoldImage';
 import EmphasisIcon from '../atoms/EmphasisIcon';
+import ContactFormDesktop from '../atoms/ContactFormDesktop';
 
 function ContactUsDesktopFold(props) {
   return (
@@ -22,7 +20,7 @@ function ContactUsDesktopFold(props) {
         </div>
 
         <div className='rightHeroAboveFold'>
-            <AboveFoldImage src = {WhoWeServe}/>
+            <ContactFormDesktop/>
         </div>
     </div>
   );
