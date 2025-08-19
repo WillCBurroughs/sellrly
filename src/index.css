@@ -1132,3 +1132,21 @@ p {
   color: rgba(203, 224, 239, 1);
   margin-top: 0px;
 }
+
+/* 500, 600, 1000 */
+
+#FAQSDesktopAboutUs{
+  top: 3000px;
+}
+
+#PreFooterDesktopAboutUs{
+  top: 3500px;
+}
+
+#FooterDesktopAboutUs{
+  top: 4500px;
+}
+
+      /* <FAQSDesktop id = "FAQSDesktopAboutUs"/>
+      <PreFooterDesktop id = "PreFooterDesktopAboutUs"/>
+      <FooterDesktop id = "FooterDesktopAboutUs" /> */

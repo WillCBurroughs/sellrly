@@ -71,6 +71,9 @@ function AboutUs(){
       <AbousUsDesktopFold/>
       <HoldBannersAboutUsDesktop/>
       <FoundersSectionDesktop/>
+      <FAQSDesktop id = "FAQSDesktopAboutUs"/>
+      <PreFooterDesktop id = "PreFooterDesktopAboutUs"/>
+      <FooterDesktop id = "FooterDesktopAboutUs" />
     </>
   )
 }
