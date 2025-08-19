@@ -1166,6 +1166,7 @@ p {
 .holdContactFormDesktop{
   margin-top: 50px;
   display: flex;
+  gap: 10px;
   align-items: center;
   align-content: center;
   flex-direction: column;
@@ -1174,4 +1175,80 @@ p {
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.10);
   background: rgba(255, 255, 255, 0.03);
+}
+
+input {
+  appearance: none; /* Removes platform-specific styling */
+  -webkit-appearance: none; /* Removes WebKit-specific styling */
+  -moz-appearance: none; /* Removes Mozilla-specific styling */
+  border: none; /* Removes border */
+  outline: none; /* Removes focus outline */
+  background: none; /* Removes background */
+  padding: 0; /* Resets padding */
+  margin: 0; /* Resets margin */
+  box-shadow: none; /* Removes box shadow */
+}
+
+textarea {
+  appearance: none; /* Removes platform-specific styling */
+  -webkit-appearance: none; /* Removes WebKit-specific styling */
+  -moz-appearance: none; /* Removes Mozilla-specific styling */
+  border: none; /* Removes border */
+  outline: none; /* Removes focus outline */
+  background: none; /* Removes background */
+  padding: 0; /* Resets padding */
+  margin: 0; /* Resets margin */
+  box-shadow: none; /* Removes box shadow */
+}
+
+input::placeholder, textarea::placeholder  {
+  color: #F2F3F8;
+  opacity: 0.4;
+}
+
+input:focus, textarea:focus {
+  background-color: rgba(44,77,142,0.1);
+  border: 2px solid #2A4D8E;
+}
+
+.form-input {
+  background-color: rgba(217, 217, 217, 0.02);
+  height: 40px;
+  width: 25vw;
+  border-radius: 10px;
+  border: 1px solid #2E333B;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #F2F3F8;
+  font-family: "Nunito";
+  transition: background-color 0.3s ease;
+}
+
+.form-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.form-element:focus-within .FormCircle {
+  background-color: #F2F3F8;
+}
+
+.form-element .form-input:not(:placeholder-shown) ~ .FormCircle {
+  background-color: #3CC9A7;
+}
+
+.form-input:not(:placeholder-shown) {
+  background-color: transparent;
+}
+
+.FormCircle {
+  width: 6px;
+  height: 6px;
+  background-color: #f2f3f849;
+  border-radius: 50%;
+  position: absolute;
+  right: 15px;
+  transition: background-color 0.3s ease;
 }
