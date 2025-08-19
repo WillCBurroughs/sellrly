@@ -17,6 +17,7 @@ import WhoWeServeContainerDesktop from './components/molecules/WhoWeServeContain
 import AbousUsDesktopFold from './components/molecules/AboutUsDesktopFold';
 import HoldBannersAboutUsDesktop from './components/molecules/HoldBannersAboutUsDesktop';
 import FoundersSectionDesktop from './components/molecules/FoundersSectionDesktop';
+import ContactUsDesktopFold from './components/molecules/ContactUsDesktopFold';
 import { Routes, Route, Outlet } from "react-router-dom";
 
 // Homepage for routing
@@ -81,7 +82,7 @@ function AboutUs(){
 function ContactUs(){
   return (
     <>
-    
+      <ContactUsDesktopFold/>
     </>
   )
 }

@@ -1146,3 +1146,7 @@ p {
 #FooterDesktopAboutUs{
   top: 4500px;
 }
+
+#HoldContactUsLeft{
+  width: 40%;
+}
