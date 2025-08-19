@@ -1150,3 +1150,19 @@ p {
 #HoldContactUsLeft{
   width: 40%;
 }
+
+#FAQSDesktopContactUs {
+  top: 700px;
+}
+
+#PreFooterDesktopContactUs{
+  top: 1200px;
+}
+
+#FooterDesktopContactUs{
+  top: 2200px;
+}
+
+      /* <FAQSDesktop id = "FAQSDesktopContactUs"/>
+      <PreFooterDesktop id = "PreFooterDesktopContactUs"/>
+      <FooterDesktop id = "FooterDesktopContactUs" /> */
