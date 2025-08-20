@@ -1165,6 +1165,7 @@ p {
 
 .holdContactFormDesktop{
   margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -1213,9 +1214,14 @@ input:focus, textarea:focus {
   border: 2px solid #2A4D8E;
 }
 
+#message{
+  height: 100px;
+  padding-top: 20px;
+}
+
 .form-input {
   background-color: rgba(217, 217, 217, 0.02);
-  height: 40px;
+  height: 60px;
   width: 25vw;
   border-radius: 10px;
   border: 1px solid #2E333B;
@@ -1253,4 +1259,28 @@ input:focus, textarea:focus {
   position: absolute;
   right: 15px;
   transition: background-color 0.3s ease;
+}
+
+.SubmitContact{
+  display: flex;
+  margin: 0 auto; 
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 16px;
+  border: 1px solid rgba(203, 224, 239, 0.16);
+  background: transparent;
+  height: 60px;
+  margin-top: 20px;
+  width: 25vw;
+  justify-self: center;
+  color: white;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; 
+  letter-spacing: -0.32px;
 }
