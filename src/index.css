@@ -1187,6 +1187,7 @@ input {
   padding: 0; /* Resets padding */
   margin: 0; /* Resets margin */
   box-shadow: none; /* Removes box shadow */
+  font-family: 'Inter';
 }
 
 textarea {
@@ -1199,6 +1200,7 @@ textarea {
   padding: 0; /* Resets padding */
   margin: 0; /* Resets margin */
   box-shadow: none; /* Removes box shadow */
+  font-family: 'Inter';
 }
 
 input::placeholder, textarea::placeholder  {
@@ -1220,7 +1222,7 @@ input:focus, textarea:focus {
   padding-left: 15px;
   font-size: 16px;
   color: #F2F3F8;
-  font-family: "Nunito";
+  font-family: "Inter";
   transition: background-color 0.3s ease;
 }
 
