@@ -259,7 +259,7 @@ p {
   -webkit-mask: none;
   mask: none;
   border-radius: 16px;
-  background: rgba(203, 224, 239, 0.10);;
+  background: rgba(203, 224, 239, 0.10);
   transition: 0.2s;
   scale: 0.97;
   cursor: pointer;
@@ -271,7 +271,7 @@ p {
 }
 
 .secondaryButton:hover {
-  border: 1px solid #CBE0EF;;
+  border: 1px solid #CBE0EF;
   transition: 0.2s;
   cursor: pointer;
 }
@@ -1283,4 +1283,20 @@ input:focus, textarea:focus {
   font-weight: 500;
   line-height: 160%; 
   letter-spacing: -0.32px;
+}
+
+.SubmitContact:hover {
+  border: 1px solid #CBE0EF;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.SubmitContact:active {
+  -webkit-mask: none;
+  mask: none;
+  border-radius: 16px;
+  background: rgba(203, 224, 239, 0.10);
+  transition: 0.2s;
+  scale: 0.97;
+  cursor: pointer;
 }
