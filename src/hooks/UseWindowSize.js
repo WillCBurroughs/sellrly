@@ -4,7 +4,7 @@ function useWindowSize() {
     const [isMobile, setIsMobile] = useState(false);
 
     const updateSize = () => {
-        setIsMobile(window.innerWidth <= 768); 
+        setIsMobile(window.innerWidth <= 1400); 
     };
 
     useEffect(() => {

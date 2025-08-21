@@ -1,9 +1,6 @@
-import logo from './logo.svg';
+
 import './index.css';
-import NavBarDesktop from './components/molecules/NavBarDesktop';
-import FAQSDesktop from './components/molecules/FAQSDesktop';
-import PreFooterDesktop from './components/molecules/PreFooterDesktop';
-import FooterDesktop from './components/molecules/FooterDesktop';
+import NavBar from './components/templates/NavBar';
 import { Routes, Route, Outlet } from "react-router-dom";
 import HomePageDesktop from './components/templates/HomePageDesktop';
 import ServicesDesktop from './components/templates/ServicesDesktop';
@@ -53,7 +50,7 @@ function ContactUs(){
 function Layout() {
   return (
     <>
-    <NavBarDesktop/>
+    <NavBar />
     <Outlet /> 
     </>
   );
