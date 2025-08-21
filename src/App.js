@@ -19,19 +19,13 @@ import HoldBannersAboutUsDesktop from './components/molecules/HoldBannersAboutUs
 import FoundersSectionDesktop from './components/molecules/FoundersSectionDesktop';
 import ContactUsDesktopFold from './components/molecules/ContactUsDesktopFold';
 import { Routes, Route, Outlet } from "react-router-dom";
+import HomePageDesktop from './components/templates/HomePageDesktop';
 
 // Homepage for routing
 function HomePage() {
   return (
     <>
-      <HomeAboveFold/>
-      <JumpDownButton/>
-      <VideoDesktopHome/>
-      <BenefitsDesktop/>
-      <ComparisonDesktop/>
-      <FAQSDesktop/>
-      <PreFooterDesktop/>
-      <FooterDesktop/>
+      <HomePageDesktop/>
     </>
   );
 }
