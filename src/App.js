@@ -4,17 +4,12 @@ import NavBarDesktop from './components/molecules/NavBarDesktop';
 import FAQSDesktop from './components/molecules/FAQSDesktop';
 import PreFooterDesktop from './components/molecules/PreFooterDesktop';
 import FooterDesktop from './components/molecules/FooterDesktop';
-import TransformCampaignSectionDesktop from './components/atoms/TransformCampaignSectionDesktop';
-import WhoWeServeDesktopHero from './components/molecules/WhoWeServeDesktopHero';
-import WhoWeServeContainerDesktop from './components/molecules/WhoWeServeContainerDesktop';
-import AbousUsDesktopFold from './components/molecules/AboutUsDesktopFold';
-import HoldBannersAboutUsDesktop from './components/molecules/HoldBannersAboutUsDesktop';
-import FoundersSectionDesktop from './components/molecules/FoundersSectionDesktop';
-import ContactUsDesktopFold from './components/molecules/ContactUsDesktopFold';
 import { Routes, Route, Outlet } from "react-router-dom";
 import HomePageDesktop from './components/templates/HomePageDesktop';
 import ServicesDesktop from './components/templates/ServicesDesktop';
 import WhoWeServeDesktop from './components/templates/WhoWeServeDesktop';
+import AboutUsDesktop from './components/templates/AboutUsDesktop';
+import ContactUsDesktop from './components/templates/ContactUsDesktop';
 
 // Homepage for routing
 function HomePage() {
@@ -43,24 +38,14 @@ function WhoWeServe() {
 
 function AboutUs(){
   return (
-    <>
-      <AbousUsDesktopFold/>
-      <HoldBannersAboutUsDesktop/>
-      <FoundersSectionDesktop/>
-      <FAQSDesktop id = "FAQSDesktopAboutUs"/>
-      <PreFooterDesktop id = "PreFooterDesktopAboutUs"/>
-      <FooterDesktop id = "FooterDesktopAboutUs" />
-    </>
+      <AboutUsDesktop/>
   )
 }
 
 function ContactUs(){
   return (
     <>
-      <ContactUsDesktopFold/>
-      <FAQSDesktop id = "FAQSDesktopContactUs"/>
-      <PreFooterDesktop id = "PreFooterDesktopContactUs"/>
-      <FooterDesktop id = "FooterDesktopContactUs" />
+      <ContactUsDesktop/>
     </>
   )
 }
