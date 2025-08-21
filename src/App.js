@@ -1,11 +1,6 @@
 import logo from './logo.svg';
 import './index.css';
 import NavBarDesktop from './components/molecules/NavBarDesktop';
-import HomeAboveFold from './components/molecules/HomeAboveFold';
-import JumpDownButton from './components/atoms/JumpDownButton';
-import VideoDesktopHome from './components/molecules/VideoDesktopHome';
-import BenefitsDesktop from './components/molecules/BenefitsDesktop';
-import ComparisonDesktop from './components/molecules/ComparisonDesktop';
 import FAQSDesktop from './components/molecules/FAQSDesktop';
 import PreFooterDesktop from './components/molecules/PreFooterDesktop';
 import FooterDesktop from './components/molecules/FooterDesktop';
@@ -20,6 +15,7 @@ import FoundersSectionDesktop from './components/molecules/FoundersSectionDeskto
 import ContactUsDesktopFold from './components/molecules/ContactUsDesktopFold';
 import { Routes, Route, Outlet } from "react-router-dom";
 import HomePageDesktop from './components/templates/HomePageDesktop';
+import ServicesDesktop from './components/templates/ServicesDesktop';
 
 // Homepage for routing
 function HomePage() {
@@ -36,14 +32,7 @@ function NotFound()    { return <div style={{padding:0}}>404</div>; }
 // Services page
 function ServicesPage()  { 
   return (
-    <>
-    <ServicesAboveFold/>
-    <ServicesServicesDesktop/>
-    <TransformCampaignSectionDesktop id = "TransformServices"/>
-    <FAQSDesktop id = "FAQSDesktopServices"/>
-    <PreFooterDesktop id = "PreFooterDesktopServices"/>
-    <FooterDesktop id = "FooterDesktopServices" />
-    </>
+    <ServicesDesktop/>
   )
 }
 
