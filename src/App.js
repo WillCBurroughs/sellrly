@@ -4,8 +4,6 @@ import NavBarDesktop from './components/molecules/NavBarDesktop';
 import FAQSDesktop from './components/molecules/FAQSDesktop';
 import PreFooterDesktop from './components/molecules/PreFooterDesktop';
 import FooterDesktop from './components/molecules/FooterDesktop';
-import ServicesAboveFold from './components/molecules/ServicesAboveFold';
-import ServicesServicesDesktop from './components/molecules/ServicesServicesDesktop';
 import TransformCampaignSectionDesktop from './components/atoms/TransformCampaignSectionDesktop';
 import WhoWeServeDesktopHero from './components/molecules/WhoWeServeDesktopHero';
 import WhoWeServeContainerDesktop from './components/molecules/WhoWeServeContainerDesktop';
@@ -16,6 +14,7 @@ import ContactUsDesktopFold from './components/molecules/ContactUsDesktopFold';
 import { Routes, Route, Outlet } from "react-router-dom";
 import HomePageDesktop from './components/templates/HomePageDesktop';
 import ServicesDesktop from './components/templates/ServicesDesktop';
+import WhoWeServeDesktop from './components/templates/WhoWeServeDesktop';
 
 // Homepage for routing
 function HomePage() {
@@ -38,14 +37,7 @@ function ServicesPage()  {
 
 function WhoWeServe() {
   return (
-    <>
-      <WhoWeServeDesktopHero/> 
-      <WhoWeServeContainerDesktop/>
-      <TransformCampaignSectionDesktop id = "TransformWhoWeServe"/>
-      <FAQSDesktop id = "FAQSDesktopWhoWeServe"/>
-      <PreFooterDesktop id = "PreFooterDesktopWhoWeServe"/>
-      <FooterDesktop id = "FooterDesktopWhoWeServe" />
-    </>
+    <WhoWeServeDesktop/>
   )
 }
 
