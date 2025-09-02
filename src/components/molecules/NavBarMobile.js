@@ -1,26 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../index.css'
 import LogoTagline from '../atoms/LogoTagline';
-import NavBarItem from '../atoms/NavBarItem';
-import PrimaryButton from '../atoms/PrimaryButton';
-import SecondaryButton from '../atoms/SecondaryButton';
-import { Link, NavLink } from "react-router-dom";
 import hamburgerMenuClosed from '../../images/HamburgerMenu.png';
+import hamburgerMenuOpened from '../../images/HamburgerMenuOpen.png';
+import MobileMenuDropdown from '../atoms/MobileMenuDropdown';
+import { useLocation } from 'react-router-dom';
 
 export default function NavBarMobile() {
-
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => { setIsOpen(false); }, [location.pathname]);
 
   return (
-    <nav>
-      <div className='NavDesktop'>
-        <div className='logoLeft'>
-          <LogoTagline />
+    <>
+      <nav>
+        <div className='NavDesktop'>
+          <div className='logoLeft'><LogoTagline /></div>
+          <div className='hamburger'>
+            <img
+              src={isOpen ? hamburgerMenuOpened : hamburgerMenuClosed}
+              className='hamburgerMenu'
+              alt="menu"
+              onClick={() => setIsOpen(o => !o)}
+            />
+          </div>
         </div>
-        <div className='hamburger'>
-          <img src={hamburgerMenuClosed} className='hamburgerMenu'/>
-        </div>
-      </div>
-    </nav>
+      </nav>
+
+      {isOpen && (
+        <MobileMenuDropdown closeMenu={() => setIsOpen(false)} />
+      )}
+    </>
   );
 }
