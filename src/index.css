@@ -1300,3 +1300,29 @@ input:focus, textarea:focus {
   scale: 0.97;
   cursor: pointer;
 }
+
+.hamburgerMenu{
+  margin-right: 30px;
+}
+
+.mobileMenuDropdown {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(180deg, #00090D 100%, #00101A 100%, #00101A 100%);
+  height: calc(100vh - 100px);
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  margin-top: 100px;
+}
+
+.login-signup-mobile{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-direction: row;
+  margin-bottom: 30px;
+}

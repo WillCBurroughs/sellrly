@@ -1,30 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../index.css'
 import LogoTagline from '../atoms/LogoTagline';
-import NavBarItem from '../atoms/NavBarItem';
-import PrimaryButton from '../atoms/PrimaryButton';
-import SecondaryButton from '../atoms/SecondaryButton';
-import { Link, NavLink } from "react-router-dom";
+import hamburgerMenuClosed from '../../images/HamburgerMenu.png';
+import hamburgerMenuOpened from '../../images/HamburgerMenuOpen.png';
+import MobileMenuDropdown from '../atoms/MobileMenuDropdown';
+import { useLocation } from 'react-router-dom';
 
 export default function NavBarMobile() {
+  const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => { setIsOpen(false); }, [location.pathname]);
+
   return (
-    <nav>
-      <div className='NavDesktop'>
-        <div className='logoLeft'>
-          <LogoTagline />
+    <>
+      <nav>
+        <div className='NavDesktop'>
+          <div className='logoLeft'><LogoTagline /></div>
+          <div className='hamburger'>
+            <img
+              src={isOpen ? hamburgerMenuOpened : hamburgerMenuClosed}
+              className='hamburgerMenu'
+              alt="menu"
+              onClick={() => setIsOpen(o => !o)}
+            />
+          </div>
         </div>
-        {/* <div className='linksNavDesktop'>
-          <NavLink className="navlink-reset" to="/" end><NavBarItem text="Home" /></NavLink>
-          <NavLink className="navlink-reset" to="Services" end><NavBarItem text="Services" /></NavLink>
-          <NavLink className="navlink-reset" to="Who-We-Serve" end><NavBarItem text="Who We Serve" /></NavLink>
-          <NavLink className="navlink-reset" to="About-Us" end><NavBarItem text="About Us" /></NavLink>
-          <NavLink className="navlink-reset" to="Contact-Us" end><NavBarItem text="Contact Us" /></NavLink>
-        </div>
-        <div className='login-signup'>
-          <NavLink className="navlink-reset" to="Log-In" end><SecondaryButton text="Log In" /></NavLink>
-          <NavLink className="navlink-reset" to="Sign-Up" end><PrimaryButton text="Sign Up" /></NavLink>
-        </div> */}
-      </div>
-    </nav>
+      </nav>
+
+      {isOpen && (
+        <MobileMenuDropdown closeMenu={() => setIsOpen(false)} />
+      )}
+    </>
   );
 }
