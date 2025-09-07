@@ -2,7 +2,7 @@
 import './index.css';
 import NavBar from './components/templates/NavBar';
 import { Routes, Route, Outlet } from "react-router-dom";
-import HomePageDesktop from './components/templates/HomePageDesktop';
+import HomePageAll from './components/pages/HomePageAll';
 import ServicesDesktop from './components/templates/ServicesDesktop';
 import WhoWeServeDesktop from './components/templates/WhoWeServeDesktop';
 import AboutUsDesktop from './components/templates/AboutUsDesktop';
@@ -12,7 +12,7 @@ import ContactUsDesktop from './components/templates/ContactUsDesktop';
 function HomePage() {
   return (
     <>
-      <HomePageDesktop/>
+      <HomePageAll/>
     </>
   );
 }
