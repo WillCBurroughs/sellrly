@@ -368,6 +368,12 @@ p {
   margin-top: -70px;
 }
 
+.leftHeroAboveFoldMobile{
+  width: 70vw;
+  text-align: left;
+  margin-top: -70px;
+}
+
 .leftHeroAboveFoldServies {
   margin-top: 50px;
 }
@@ -376,6 +382,13 @@ p {
   margin-top: 0px;
   width: 530px;
   padding-right: 100px;
+}
+
+.rightHeroAboveFoldMobile{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 70vw;
 }
 
 .jumpButton {
@@ -1325,4 +1338,21 @@ input:focus, textarea:focus {
   gap: 40px;
   flex-direction: row;
   margin-bottom: 30px;
+}
+
+.contentMobile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent; 
+  justify-content: space-between;           
+  text-align: left; 
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  height: auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
