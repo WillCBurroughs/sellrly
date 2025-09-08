@@ -773,6 +773,8 @@ p {
   justify-content: center;
 }
 
+
+
 .preFooterBigDivDesktop{
   width: calc(50vw - 60px);
   margin: 10px;
@@ -1441,5 +1443,17 @@ input:focus, textarea:focus {
 }
 
 #holdingCorrect {
-  top: calc(4000px - 15vh);
+  top: calc(4200px - 15vh);
+}
+
+#adjustMobile {
+  flex-direction: column;
+  height: auto;
+  width: 90vw;
+}
+
+.newclassbigdiv {
+  width: 80vw;
+  padding: 20px;
+  height: auto;
 }
