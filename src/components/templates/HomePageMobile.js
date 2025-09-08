@@ -11,7 +11,7 @@ function HomePageMobile(props) {
         <HomeAboveFoldMobileMobile/>
         <VideoMobileHome/>
         <BenefitsMobile/>
-        <MobileBottomSection/>
+        <MobileBottomSection prefooterid = "holdingCorrect"/>
     </>
   );
 }
