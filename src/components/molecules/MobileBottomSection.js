@@ -24,10 +24,10 @@ export default function MobileBottomSection(props) {
         </div>
     </div>
         <div className='PreFooterDesktop' id = {props.prefooterid}>
-        <div className='PreFooterDesktopBackground'>
+        <div className='PreFooterDesktopBackground' id = {props.prefooterdesktop}>
               
               <div  
-                className={`preFooterBigDivDesktop ${active === "top" ? "active" : "inactive"}`}
+                className={`preFooterBigDivDesktop ${active === "top" ? "active" : "inactive"} ${props.newclassbigdiv}`}
                 onMouseEnter={() => setActive("top")}
               >
                 <h2 className='bigdesktopheader'>
@@ -40,7 +40,7 @@ export default function MobileBottomSection(props) {
               </div>
               
               <div 
-               className={`preFooterBigDivDesktop ${active === "bottom" ? "active" : "inactive"}`}
+               className={`preFooterBigDivDesktop ${active === "bottom" ? "active" : "inactive"} ${props.newclassbigdiv}`}
                onMouseEnter={() => setActive("bottom")} >
                 <h2 className='bigdesktopheader'>
                   Still Have Questions
