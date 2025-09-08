@@ -3,6 +3,7 @@ import '../../index.css';
 import HomeAboveFoldMobileMobile from "../molecules/HomeAboveFoldMobile";
 import VideoMobileHome from "../molecules/VideoMobileHome";
 import BenefitsMobile from "../molecules/BenefitsMobile";
+import MobileBottomSection from '../molecules/MobileBottomSection';
 
 function HomePageMobile(props) {
   return (
@@ -10,6 +11,7 @@ function HomePageMobile(props) {
         <HomeAboveFoldMobileMobile/>
         <VideoMobileHome/>
         <BenefitsMobile/>
+        <MobileBottomSection/>
     </>
   );
 }

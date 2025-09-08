@@ -370,8 +370,10 @@ p {
 
 .leftHeroAboveFoldMobile{
   width: 70vw;
+  text-overflow: wrap;
   text-align: left;
   margin-top: -70px;
+  padding-left: 0px;
 }
 
 .leftHeroAboveFoldServies {
@@ -388,7 +390,8 @@ p {
   margin-top: 20px;
   display: flex;
   justify-content: center;
-  width: 70vw;
+  width: 50vw;
+  padding-right: 0px;
 }
 
 .jumpButton {
@@ -682,14 +685,47 @@ p {
   height: 840px;
 }
 
+.FAQSMobile {
+  top: calc(3400px - 20vh);
+  align-items: center;
+  flex-direction: column;
+  background-color: transparent;           
+  text-align: center; 
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  border-radius: 12px;
+  color: white;
+  display: flex;
+  justify-content: space-between;           
+  left: 0;
+  width: 100vw;
+  height: 840px;
+}
+
 #faqP{
   margin-top: 32px;
+}
+
+#faqMobile{
+  width: 70vw;
+}
+
+#mobileDropdown {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 0px;
+  padding-top: 0px;
+  margin-top: -500px;
 }
 
 .accordion-title, .accordion-title-Active {
   display: inline-flex;
   justify-content: space-between;
-  width: 500px;
+  width: 400px;
   margin-bottom: 20px;
   padding-bottom: 16px;
   border-bottom: 1px solid rgba(149, 169, 183, 0.25);

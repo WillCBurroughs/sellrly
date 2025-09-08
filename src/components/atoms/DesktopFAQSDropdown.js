@@ -7,7 +7,7 @@ function DesktopFAQSDropdown(props) {
 
     return (
     <div>
-      <div className="accordion">
+      <div className="accordion" id = {props.id}>
         {accordionData.map(({ title, content }) => (
           <DesktopAccordionRow title={title} content={content} />
         ))}
