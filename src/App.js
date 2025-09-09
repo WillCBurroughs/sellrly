@@ -3,7 +3,7 @@ import './index.css';
 import NavBar from './components/templates/NavBar';
 import { Routes, Route, Outlet } from "react-router-dom";
 import HomePageAll from './components/pages/HomePageAll';
-import ServicesDesktop from './components/templates/ServicesDesktop';
+import ServicesPageAll from './components/pages/ServicesPageAll';
 import WhoWeServeDesktop from './components/templates/WhoWeServeDesktop';
 import AboutUsDesktop from './components/templates/AboutUsDesktop';
 import ContactUsDesktop from './components/templates/ContactUsDesktop';
@@ -23,7 +23,7 @@ function NotFound()    { return <div style={{padding:0}}>404</div>; }
 // Services page
 function ServicesPage()  { 
   return (
-    <ServicesDesktop/>
+    <ServicesPageAll/>
   )
 }
 
