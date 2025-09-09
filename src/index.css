@@ -1461,3 +1461,7 @@ input:focus, textarea:focus {
   padding: 20px;
   height: auto;
 }
+
+#holdImageServices {
+  width: 80vw;
+}
