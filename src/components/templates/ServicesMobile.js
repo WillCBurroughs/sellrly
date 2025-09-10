@@ -1,7 +1,7 @@
 import React from "react";
 import '../../index.css';
 import ServicesAboveFoldMobile from "../molecules/ServicesAboveFoldMobile";
-import ServicesServicesDesktop from "../molecules/ServicesServicesDesktop";
+import ServicesServicesMobile from "../molecules/ServicesServicesMobile";
 import TransformCampaignSectionDesktop from "../atoms/TransformCampaignSectionDesktop";
 import FAQSDesktop from "../molecules/FAQSDesktop";
 import PreFooterDesktop from "../molecules/PreFooterDesktop";
@@ -11,6 +11,8 @@ function ServicesMobile(props) {
   return (
     <>
     <ServicesAboveFoldMobile/>
+    <ServicesServicesMobile/>
+    
     {/* <ServicesServicesDesktop/>
     <TransformCampaignSectionDesktop id = "TransformServices"/>
     <FAQSDesktop id = "FAQSDesktopServices"/>
