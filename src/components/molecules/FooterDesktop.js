@@ -6,6 +6,7 @@ import Facebook from '../../images/Facebook.svg'
 import Instagram from '../../images/Instagram.svg'
 import Youtube from '../../images/Youtube.svg'
 import LinkedIn from '../../images/Linkedin.svg'
+import { Link } from 'react-router-dom';
 
 function FooterDesktop(props) {
   return (
@@ -35,7 +36,13 @@ function FooterDesktop(props) {
                 2025 @ Sellrly All Rights Reserved
             </p>
             <p>
-                <u>Terms and Conditions</u> & <u>Privacy Policy</u>
+               <Link to="/terms-of-service" className="custom-link">
+                    <u>Terms and Conditions</u>
+               </Link>
+                <nbsp></nbsp> & <nbsp></nbsp>
+               <Link to="/terms-of-service" className="custom-link">
+                    <u>Privacy Policy</u>
+               </Link>
             </p>
         </div>
     </div>
