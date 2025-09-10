@@ -24,6 +24,10 @@
   color: white;
 }
 
+.custom-link {
+  color: inherit;  
+}
+
 .App-link {
   color: #61dafb;
 }

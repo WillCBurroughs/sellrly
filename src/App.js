@@ -47,6 +47,22 @@ function ContactUs(){
   )
 }
 
+function TermsOfService(){
+  return (
+    <>
+      <p>Hello</p>
+    </>
+  )
+}
+
+function PrivacyPolicy() {
+  return (
+    <>
+      <p>Hello</p>
+    </>
+  );
+}
+
 function Layout() {
   return (
     <>
@@ -65,6 +81,8 @@ export default function App() {
         <Route path='Who-We-Serve' element = {<WhoWeServe/>} />
         <Route path="About-Us" element = {<AboutUs/>} />
         <Route path="Contact-Us" element = {<ContactUs/>}/>
+        <Route path="terms-of-service" element = {<TermsOfService/>}/>
+        <Route path="privacy-policy" element = {<PrivacyPolicy/>}/>
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
