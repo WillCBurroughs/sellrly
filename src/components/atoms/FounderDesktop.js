@@ -1,5 +1,4 @@
 import '../../index.css'
-import Founder from '../../images/Founder.png'
 
 function FounderDesktop(props) {
   return (
@@ -20,7 +19,7 @@ function FounderDesktop(props) {
             </p>
         </div>
         <div className='FounderImageDesktop'>
-            <img src= {Founder} alt='Founder'/>
+            <img src= {props.founder} alt='Founder'/>
         </div>
     </div>
   );
