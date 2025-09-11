@@ -1465,3 +1465,15 @@ input:focus, textarea:focus {
 #holdImageServices {
   width: 80vw;
 }
+
+.holdDesktop {
+  display: flex;
+  align-items: flex-start;
+  width: 60vw;
+  flex-direction: column;
+  align-self: center;
+  padding-top: 40px;
+  margin: 100px auto 0 auto;
+  height: auto;
+  text-align: left;
+}
