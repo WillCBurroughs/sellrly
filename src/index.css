@@ -1477,3 +1477,11 @@ input:focus, textarea:focus {
   height: auto;
   text-align: left;
 }
+
+.TopDivider{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #95A9B7;
+  width: 60vw;
+  height: 1px;
+}
