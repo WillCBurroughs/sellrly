@@ -7,6 +7,7 @@ import ServicesPageAll from './components/pages/ServicesPageAll';
 import WhoWeServeDesktop from './components/templates/WhoWeServeDesktop';
 import AboutUsDesktop from './components/templates/AboutUsDesktop';
 import ContactUsDesktop from './components/templates/ContactUsDesktop';
+import TermsOfServiceDesktop from './components/templates/TermsOfServiceDesktop';
 
 // Homepage for routing
 function HomePage() {
@@ -50,7 +51,7 @@ function ContactUs(){
 function TermsOfService(){
   return (
     <>
-      <p>Hello</p>
+      <TermsOfServiceDesktop/>
     </>
   )
 }
