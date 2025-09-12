@@ -70,7 +70,3 @@ function TermsOfServiceDesktop(props) {
 }
 
 export default TermsOfServiceDesktop;
-
-        // <h2>{props.text}</h2>
-        // <p className='subtext'>{props.subtext}</p>
-        // <p className='mainText'>{props.maintext}</p>

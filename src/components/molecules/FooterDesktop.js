@@ -40,7 +40,7 @@ function FooterDesktop(props) {
                     <u>Terms and Conditions</u>
                </Link>
                 <nbsp></nbsp> & <nbsp></nbsp>
-               <Link to="/terms-of-service" className="custom-link">
+               <Link to="/privacy-policy" className="custom-link">
                     <u>Privacy Policy</u>
                </Link>
             </p>
