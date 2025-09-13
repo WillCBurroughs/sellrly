@@ -26,40 +26,40 @@ function PrivacyPolicyDesktop(props) {
             maintext = "We may share information with: Service providers (e.g., payment processors, data hosts, analytics firms), Other users, in cases where buyer-seller interaction requires data exchange (e.g., seller name, shipping info), Third-party platforms (e.g., TikTok, Shopify, email marketing tools) integrated into the Platform, Authorities, to comply with legal obligations or respond to law enforcement requests, Business successors, in the event of a merger, acquisition, or asset sale, We do not sell your personal information."
             />
             <SectionTerms
-            text = "4. Advertiser Content & Platform License"
-            maintext = "Advertisers retain all right, title, and interest in and to any advertising content submitted to the Platform, including but not limited to images, videos, product descriptions, branding elements, and promotional copy (“Ad Content”). This includes all applicable copyrights, trademarks, and intellectual property rights. Notwithstanding the foregoing, by submitting Ad Content to the Platform, the advertiser hereby grants Sellrly a non-exclusive, irrevocable, perpetual, royalty-free, fully sublicensable, worldwide license to: Use, reproduce, publicly display, perform, distribute, and modify the Ad Content, Create derivative works of the Ad Content for promotional, editorial, algorithmic, and operational purposes, Syndicate or distribute the Ad Content across SellrLY-owned properties and partner networks, Retain archived or derivative versions of Ad Content for compliance, analytics, or historical reference, This license survives the termination of any campaign, account, or agreement between the parties and applies to all content submitted or used within the scope of any campaign or promotion on the Platform." 
+            text = "4. Cookies & Tracking Technologies"
+            maintext = "We use cookies, web beacons, and tracking technologies to: Keep users logged in, Needed to fulfill the purposes outlined above, Required to comply with legal, financial, or operational obligations, You may request deletion of your account or data by contacting us." 
             />
             <SectionTerms
-            text = "5. Anti-Fraud & Advertiser Representations"
-            maintext = "Advertisers and sellers represent and warrant that: All content, offers, and products are lawful, truthful, and accurately described - No effort will be made to manipulate or artificially inflate metrics. Prohibited actions include but are not limited to: Click fraud or artificial engagement, Impression spoofing or bot traffic, Conversion inflation or misattribution, Use of deceptive landing pages or fake offers, Incentivized or paid interactions designed to manipulate campaign data Sellrly reserves the right to immediately: Suspend or terminate campaigns, Withhold performance payouts or credits, Ban user accounts, Share fraud data with applicable authorities or industry watchdogs Violations may result in legal action and forfeiture of all paid and unpaid media spend."
+            text = "5. Data Retention"
+            maintext = "We retain your information as long as: Your account remains active, Needed to fulfill the purposes outlined above, Required to comply with legal, financial, or operational obligations, You may request deletion of your account or data by contacting us."
             />
             <SectionTerms
-            text = "6. Data Ownership"
-            maintext = "Sellrly exclusively owns all platform-level data generated through use of the Platform, including but not limited to: Campaign performance and attribution data, User engagement metrics, Buyer and seller behavior, Clickstream, session data, and conversion paths, Derived or aggregated insights. By using the Platform, you grant Sellrly a perpetual, royalty-free license to: Use this data for algorithm development, recommendation engines, and performance optimization, Train AI and machine learning models, Produce internal reports or third-party anonymized data products Sellrly reserves the right to immediately: Suspend or terminate campaigns, Withhold performance payouts or credits, Ban user accounts, Share fraud data with applicable authorities or industry watchdogs You acknowledge that you have no ownership or control over this data, even if derived from your activity."
+            text = "6. Your Rights"
+            maintext = "Depending on your jurisdiction, you may have rights to: Access or correct your personal data, Request deletion or portability of your data, Object to or restrict certain processing activities. To exercise your rights, email us at [Insert Privacy Email Address]. We may require identity verification before processing your request."
             />
             <SectionTerms 
-            text = "7. Dispute Resolution & Metrics Authority"
-            maintext = "In the case of a campaign or billing dispute: SellrLY’s internal reporting, analytics systems, and platform logs shall serve as the final and binding source of truth. Third-party data, user-side analytics, or self-reported results will not be accepted unless pre-approved in writing. Any billing dispute must be submitted in writing within 10 calendar days of invoice issuance or campaign completion. Failure to raise a timely dispute waives your right to challenge the charge."
+            text = "7. Security Measures"
+            maintext = "We implement technical and organizational safeguards to protect your data, including encryption, access controls, and regular audits. However, no system is 100% secure, and you use the Platform at your own risk."
             />
             <SectionTerms
-            text = "8. Prohibited Conduct"
-            maintext = "In the case of a campaign or billing dispute: Promote or sell counterfeit, illegal, or unlicensed goods, Upload false or infringing content, Interfere with the Platform's security, integrity, or uptime Misrepresent yourself or your business Circumvent fee structures or engage in unauthorized scraping, cloning, or resale of the Platform Violations will result in termination and possible legal action."
+            text = "8. Children's Privacy"
+            maintext = "The Platform is not intended for use by children under 13 (or under 16 in some jurisdictions). We do not knowingly collect personal data from minors. If we learn that we have collected data from a child, we will delete it promptly."
             />
             <SectionTerms
-            text = "9. Account Termination"
-            maintext = "Sellrly may suspend or permanently terminate your access at any time for: Breach of these Terms, Legal or regulatory risk, Fraudulent or unethical conduct, Platform abuse. All rights granted to Sellrly under these Terms will survive termination."
+            text = "9. International Data Transfers"
+            maintext = "If you access the Platform from outside the United States, your information may be transferred to and processed in the U.S. or other jurisdictions that may not provide the same level of data protection. By using Sellrly, you consent to such transfers."
             />
             <SectionTerms
-            text = "10. Governing Law & Venue"
-            maintext = "These Terms are governed by and construed under the laws of the State of [Insert State], without regard to conflict of law principles. You agree to resolve any disputes exclusively in the state or federal courts located in [Insert County, State], or via binding arbitration where applicable."
+            text = "10. Changes to This Policy"
+            maintext = "We may update this Privacy Policy periodically. Material changes will be posted on this page with an updated effective date. Continued use of the Platform after changes constitutes your acceptance of the revised policy."
             />
             <SectionTerms
-            text = "11. Modifications to Terms"
-            maintext = "Sellrly reserves the right to modify these Terms at any time. Updated versions will be posted with a revised effective date. Continued use of the Platform after such changes constitutes acceptance of the updated Terms."
+            text = "11. Data Ownership and Usage Right"
+            maintext = "Sellrly is the sole and exclusive owner of all data collected, generated, aggregated, or derived through or from: Platform usage, Buyer and seller behavior, Transactional history, Engagement with ads or content, Traffic sources, device data, and session signals Sellrly retains perpetual, royalty-free, and irrevocable rights to: Analyze, use, and enhance this data to drive Platform functionality, traffic, and monetization, Build and improve internal tools, algorithms, AI models, and recommendation systems, Aggregate and anonymize data for reporting, resale, or commercial partnerships, Promote marketplace visibility through traffic-driving strategies (e.g., syndication, search optimization, cross-platform advertising), By using the Platform, you grant Sellrly full rights to use this data without attribution, compensation, or approval, regardless of your future participation on the Platform."
             />
             <SectionTerms
             text = "12. Contact Information"
-            subtext = "contact@sellrly.com"
+            subtext = "For privacy-related questions, data requests, or complaints: contact@sellrly.com"
             maintext = "Address: Sellrly PO Box 616 Purchase, NY 10577"
             />
             
