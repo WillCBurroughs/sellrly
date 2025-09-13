@@ -8,6 +8,7 @@ import WhoWeServeDesktop from './components/templates/WhoWeServeDesktop';
 import AboutUsDesktop from './components/templates/AboutUsDesktop';
 import ContactUsDesktop from './components/templates/ContactUsDesktop';
 import TermsOfServiceDesktop from './components/templates/TermsOfServiceDesktop';
+import PrivacyPolicyDesktop from './components/templates/PrivacyPolicyDesktop';
 
 // Homepage for routing
 function HomePage() {
@@ -59,7 +60,7 @@ function TermsOfService(){
 function PrivacyPolicy() {
   return (
     <>
-      <p>Hello</p>
+      <PrivacyPolicyDesktop/>
     </>
   );
 }
