@@ -1531,5 +1531,9 @@ input:focus, textarea:focus {
 }
 
 .imgageBenefit{
-  width: 70vw;
+  width: 80vw;
+}
+
+#holdFirst{
+  margin-top: 350px;
 }
