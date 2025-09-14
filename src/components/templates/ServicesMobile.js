@@ -2,16 +2,14 @@ import React from "react";
 import '../../index.css';
 import ServicesAboveFoldMobile from "../molecules/ServicesAboveFoldMobile";
 import ServicesServicesMobile from "../molecules/ServicesServicesMobile";
-import TransformCampaignSectionDesktop from "../atoms/TransformCampaignSectionDesktop";
-import FAQSDesktop from "../molecules/FAQSDesktop";
-import PreFooterDesktop from "../molecules/PreFooterDesktop";
-import FooterDesktop from "../molecules/FooterDesktop";
+import MobileBottomSection from "../molecules/MobileBottomSection";
 
 function ServicesMobile(props) {
   return (
     <>
     <ServicesAboveFoldMobile/>
     <ServicesServicesMobile/>
+    <MobileBottomSection spacer = "servicesSpacing" prefooterid = "holdingCorrect" prefooterdesktop = "adjustMobile" newclassbigdiv = "newclassbigdiv" />
     
     {/* <ServicesServicesDesktop/>
     <TransformCampaignSectionDesktop id = "TransformServices"/>

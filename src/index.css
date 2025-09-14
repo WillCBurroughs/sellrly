@@ -751,7 +751,7 @@ p {
   padding-right: 10px;
 }
 
-.PreFooterDesktop {
+.PreFooterDesktop, .PreFooterMobile {
   position: absolute;
   top: 4400px;
   left: 0;
@@ -1487,6 +1487,7 @@ input:focus, textarea:focus {
   top: calc(4200px - 15vh);
 }
 
+
 #adjustMobile {
   flex-direction: column;
   height: auto;
@@ -1557,4 +1558,10 @@ input:focus, textarea:focus {
 
 #holdFirst{
   margin-top: 350px;
+}
+
+#servicesSpacing{
+  position: absolute;
+  top: calc(700px + 120vw);
+  left: 0;
 }
