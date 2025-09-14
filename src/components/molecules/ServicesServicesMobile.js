@@ -11,6 +11,7 @@ function ServicesServicesDesktop(props) {
   return (
     <div className='holdServicesServicesMobile'>
         <BenefitMobileServices 
+            headerID = "holdFirst"
             headerText = "Total Reach" 
             secondaryHeader = "The Audience Your Live Stream Deserves" 
             paragraphContent = "You could run ads on their platform… but their algorithm already ghosted you. Meanwhile, 95 million live shoppers aren’t seeing you."

@@ -3,7 +3,7 @@ import '../../index.css'
 function BenefitMobileServices(props) {
   return (
     <div className='benefitDivMobileServices'>
-        <h2 className='benefitTextServicesMobile'>
+        <h2 className='benefitTextServicesMobile' id = {props.headerID}>
             {props.headerText}
         </h2>
         <div className='mainContentMobileServices' id= {props.id}>
