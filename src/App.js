@@ -4,7 +4,7 @@ import NavBar from './components/templates/NavBar';
 import { Routes, Route, Outlet } from "react-router-dom";
 import HomePageAll from './components/pages/HomePageAll';
 import ServicesPageAll from './components/pages/ServicesPageAll';
-import WhoWeServeDesktop from './components/templates/WhoWeServeDesktop';
+import WhoWeServeAll from './components/pages/WhoWeServeAll';
 import AboutUsDesktop from './components/templates/AboutUsDesktop';
 import ContactUsDesktop from './components/templates/ContactUsDesktop';
 import TermsOfServiceDesktop from './components/templates/TermsOfServiceDesktop';
@@ -31,7 +31,7 @@ function ServicesPage()  {
 
 function WhoWeServe() {
   return (
-    <WhoWeServeDesktop/>
+    <WhoWeServeAll/>
   )
 }
 
