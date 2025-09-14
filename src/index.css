@@ -1010,6 +1010,27 @@ p {
   pointer-events: none;
 }
 
+#TrackYourAnalyticsMobile{
+  box-shadow: 0 4px 128px 0 rgba(138, 56, 245, 0.16);
+  display: flex;
+  flex-direction: column;
+}
+
+#TrackYourAnalyticsMobile::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;                    
+  border-radius: inherit;
+  background: linear-gradient(180deg, #9067FF 0%, #11B5E4 100%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+}
+
 #GetMoreViews {
   box-shadow: 0 4px 128px 0 rgba(243, 124, 33, 0.16);;
 }
