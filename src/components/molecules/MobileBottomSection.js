@@ -17,6 +17,7 @@ export default function MobileBottomSection(props) {
 
   return (
     <>
+    <div className='spacer' id = {props.spacer}>
     <div className='FAQSMobile' id= {props.id}>
         <div className='leftHeroAboveFold'>
             <h1>
@@ -29,7 +30,7 @@ export default function MobileBottomSection(props) {
             <DesktopFAQSDropdown id = "mobileDropdown" />
         </div>
     </div>
-        <div className='PreFooterDesktop' id = {props.prefooterid}>
+        <div className='PreFooterMobile' id = {props.prefooterid}>
         <div className='PreFooterDesktopBackground' id = {props.prefooterdesktop}>
               
               <div  
@@ -85,6 +86,7 @@ export default function MobileBottomSection(props) {
                 <u>Terms and Conditions</u> & <u>Privacy Policy</u>
             </p>
         </div>
+    </div>
     </div>
     </>
   );
