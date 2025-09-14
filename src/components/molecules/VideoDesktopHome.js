@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import EmphasisIcon from '../atoms/EmphasisIcon';
+import SocialSelling from '../../video/SocialSelling.mp4';
 
 
 function VideoDesktopHome(props) {
@@ -22,7 +23,7 @@ function VideoDesktopHome(props) {
                 id='videoHome'
                 controls
             >
-            <source src="/videos/intro.mp4" type="video/mp4" />
+            <source src= {SocialSelling} type="video/mp4" />
             Your browser does not support the video tag.
             </video>
         </div>
