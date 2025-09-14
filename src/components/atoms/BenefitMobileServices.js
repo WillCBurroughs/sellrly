@@ -2,24 +2,24 @@ import '../../index.css'
 
 function BenefitMobileServices(props) {
   return (
-    <div className='benefitDivDesktopServices'>
-        <h2 className='benefitTextServices'>
+    <div className='benefitDivMobileServices'>
+        <h2 className='benefitTextServicesMobile'>
             {props.headerText}
         </h2>
-        <div className='mainContentDesktopServices' id= {props.id}>
-            <div className='TextContentDesktopServices'>
-                <h5 className='SecondaryHeaderDesktopServices'>
+        <div className='mainContentMobileServices' id= {props.id}>
+            <div className='TextContentMobileServices'>
+                <h5 className='SecondaryHeaderMobileServices'>
                     {props.secondaryHeader}
                 </h5>
-                <p className='paragraphContentDesktopServices'>
+                <p className='paragraphContentMobileServices'>
                     {props.paragraphContent}
                 </p>
-                <p className='paragraphContentDesktopServicesSecondary'>
+                <p className='paragraphContentMobileServicesSecondary'>
                     {props.paragraphContentSecondary}
                 </p>
             </div>
-            <div className='ImageContentDesktopServices'>
-                <img src= {props.src} alt={props.alt || "unknow"}/>
+            <div className='ImageContentMobileServices'>
+                <img className='imgageBenefit' src= {props.src} alt={props.alt || "unknow"}/>
             </div>
         </div>
     </div>

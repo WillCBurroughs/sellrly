@@ -9,9 +9,9 @@ import LightPurple from '../../images/Light_Purple.svg'
 
 function ServicesServicesDesktop(props) {
   return (
-    <div className='holdServicesServices'>
+    <div className='holdServicesServicesMobile'>
         <BenefitMobileServices 
-            headerText = "Total Reach Streaming" 
+            headerText = "Total Reach" 
             secondaryHeader = "The Audience Your Live Stream Deserves" 
             paragraphContent = "You could run ads on their platform… but their algorithm already ghosted you. Meanwhile, 95 million live shoppers aren’t seeing you."
             paragraphContentSecondary = "Sellrly flips the script. Your stream. Any platform. The right audience. More eyes = more sales."

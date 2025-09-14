@@ -878,7 +878,7 @@ p {
   color: inherit; 
 }
 
-.holdServicesServices, .holdWhoWeServe {
+.holdServicesServices, .holdServicesServicesMobile, .holdWhoWeServe {
   position: absolute;
   padding: 100px;
   top: 700px;
@@ -886,15 +886,26 @@ p {
   right: 0;
 }
 
+.holdServicesServicesMobile{
+  padding: 0;
+}
+
+
 .holdWhoWeServe {
   top: 800px;
 }
 
 .benefitTextServices {
   margin-bottom: 30px;
+  position: relative;
 }
 
-.mainContentDesktopServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
+.benefitTextServicesMobile{
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+.mainContentDesktopServices, .mainContentMobileServices, .mainContentMobileServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
   width: calc(100vw - 200px);
   height: 350px;
   display: flex;
@@ -970,6 +981,11 @@ p {
 
 .ImageContentDesktopServices {
   padding: 20px;
+}
+
+.ImageContentMobileServices {
+  padding: 40px;
+  align-self: center;
 }
 
 
@@ -1493,4 +1509,27 @@ input:focus, textarea:focus {
   padding-bottom: 0;
   padding-left: 0;
   margin-left: 0;
+}
+
+.benefitDivMobileServices{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContentMobileServices{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 90vw;
+  margin: 0 auto auto 0;
+  align-items: center;
+  margin-right: 0;
+  padding: 20px;
+}
+
+.imgageBenefit{
+  width: 70vw;
 }
