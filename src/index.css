@@ -928,7 +928,7 @@ p {
   height: 450px;
 }
 
-.mainContentDesktopServices::before, .mainContentAboutBanner::before {
+.mainContentDesktopServices::before, .mainContentMobileServices::before, .mainContentAboutBanner::before {
   content: "";
   position: absolute;
   inset: 0;
