@@ -20,7 +20,7 @@ function ServicesServicesDesktop(props) {
         />
         <BenefitMobileServices
             headerText = "Track your analytics" 
-            id = "TrackYourAnalytics"
+            id = "TrackYourAnalyticsMobile"
             secondaryHeader = "Know What’s Working. Drop What’s Not." 
             paragraphContent = "Sellrly’s analytics show you who’s watching, clicking, and buying—so you can boost what slaps and ditch what flops.Track it. Hack it. Cash it."
             paragraphContentSecondary = "Track it. Hack it. Cash it."
