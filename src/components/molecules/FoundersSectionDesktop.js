@@ -24,7 +24,7 @@ function FoundersSectionDesktop(props) {
             founder = {Andrew}
             id = "row-reverse"
             founderName = "Andrew Reis" 
-            founderTitle = "COO" 
+            founderTitle = "CEO" 
             founderFirstLines = "Andrew is a serial entrepreneur with a proven track record of scaling category-defining companies across ad-tech, e-commerce, and digital media. He he has built and exited businesses representing over $2B in aggregate enterprise value while creating 2,200+ jobs. At Sellrly, Andrew brings his expertise to what he believes is the next great revolution in digital commerce,  live social selling. Already $175 B ( 800B by 2030) market in the US he recognizes the need for social sellers to promote their brand and sells beyond sellers’ native platforms along with the advent of self-serve advertising platform."
             founderNextLines = "As Mr. Reis says “We’re not just building an ad platform—we’re building the infrastructure for the $800B live social commerce economy of tomorrow."
             />
