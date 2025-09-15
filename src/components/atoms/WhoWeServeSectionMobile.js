@@ -19,7 +19,7 @@ function WhoWeServeSectionMobile(props) {
             <div className='ImageContentMobileWhod'>
                 <img className = "MobileImage" src= {props.src} alt={props.alt || "unknow"}/>
             </div>
-            <div className='TextContentWhoWeServe'>
+            <div className='TextContentWhoWeServeMobile'>
                 <img src = {GoalDesktop} alt='Goal'/>
                 <LineItemWhoWeServe imgSrc = "2" text = {props.firstLine}/>
                 <img src = {Strategy} style={{marginTop: "10px"}} alt='Strategy'/>

@@ -29,7 +29,6 @@ function WhoWeServeContainerMobile(props) {
             emphasis = "Sports Cards & Collectables" 
             headerText = "Hobby Seller on Whatnot"
             src = {HobbyReseller}
-            id = "row-reverse"
             firstLine = "Engage collectors to boost bids on cards"
             secondLine = "Ads on forums, YouTube, and betting sites"
             thirdLine = "Target buyers of baseball & basketball cards"
@@ -52,7 +51,6 @@ function WhoWeServeContainerMobile(props) {
             emphasis = "Tech" 
             headerText = "Gadget Retailer Selling Smart Home Devices"
             src = {GadgetRetailer}
-            id = "row-reverse"
             firstLine = "Launch a new smart home bundle during a 3-day live selling event"
             secondLine = "Campaign targeting tech enthusiasts and early adopters."
             thirdLine = "Display ads on tech blogs, Reddit, and YouTube review channels synced to liveevent times"
