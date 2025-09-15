@@ -878,12 +878,16 @@ p {
   color: inherit; 
 }
 
-.holdServicesServices, .holdServicesServicesMobile, .holdWhoWeServe {
+.holdServicesServices, .holdServicesServicesMobile, .holdWhoWeServe, .holdWhoWeServeMobile {
   position: absolute;
   padding: 100px;
   top: 700px;
   left: 0;
   right: 0;
+}
+
+.holdWhoWeServeMobile{
+  padding: 0;
 }
 
 .holdServicesServicesMobile{
@@ -905,7 +909,7 @@ p {
   margin-bottom: 30px;
 }
 
-.mainContentDesktopServices, .mainContentMobileServices, .mainContentMobileServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
+.mainContentDesktopServices, .mainContentMobileWhoWeServe, .mainContentMobileServices, .mainContentMobileServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
   width: calc(100vw - 200px);
   height: 350px;
   display: flex;
@@ -923,9 +927,16 @@ p {
   height: 300px;
 }
 
-.mainContentDesktopWhoWeServe {
+.mainContentDesktopWhoWeServe, .mainContentMobileWhoWeServe {
   box-shadow: 0 4px 128px 0 rgba(166, 160, 248, 0.14);
   height: 450px;
+}
+
+.mainContentMobileWhoWeServe {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .mainContentDesktopServices::before, .mainContentMobileServices::before, .mainContentAboutBanner::before {
@@ -943,7 +954,7 @@ p {
   pointer-events: none;
 }
 
-.mainContentDesktopWhoWeServe::before {
+.mainContentDesktopWhoWeServe::before, .mainContentMobileWhoWeServe::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -988,7 +999,19 @@ p {
   align-self: center;
 }
 
+.ImageContentMobileWhod{
+  padding: 20px;
+}
 
+#AddSpaceTop{
+  margin-top: 300px;
+}
+
+.MobileImage{
+  margin-bottom: -60px;
+  margin-top: 30px;
+  width: 90vw;
+}
 
 #TrackYourAnalytics{
   box-shadow: 0 4px 128px 0 rgba(138, 56, 245, 0.16);
@@ -1539,6 +1562,9 @@ input:focus, textarea:focus {
   width: 100vw;
   align-items: center;
   justify-content: center;
+  position: relative;
+  margin: 0 auto auto 0;
+  padding: 0;
 }
 
 .mainContentMobileServices{
@@ -1568,5 +1594,10 @@ input:focus, textarea:focus {
 
 .HoldLinksForWhoWeServeMobile{
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: 50px;
+}
+
+.emphasisAdjust{
+  margin-top: 50px;
+  margin-bottom: 0px;
 }
