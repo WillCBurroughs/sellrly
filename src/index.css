@@ -1619,3 +1619,13 @@ input:focus, textarea:focus {
   top: calc(4400px + 130vw);
   left: 0;
 }
+
+.holdAboutUsTopSections{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  margin-top: 500px;      
+  width: 100vw;
+  left: 0;
+}
