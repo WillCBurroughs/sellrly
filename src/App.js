@@ -5,7 +5,7 @@ import { Routes, Route, Outlet } from "react-router-dom";
 import HomePageAll from './components/pages/HomePageAll';
 import ServicesPageAll from './components/pages/ServicesPageAll';
 import WhoWeServeAll from './components/pages/WhoWeServeAll';
-import AboutUsDesktop from './components/templates/AboutUsDesktop';
+import AboutUsAll from './components/pages/AboutUsAll';
 import ContactUsDesktop from './components/templates/ContactUsDesktop';
 import TermsOfServiceDesktop from './components/templates/TermsOfServiceDesktop';
 import PrivacyPolicyDesktop from './components/templates/PrivacyPolicyDesktop';
@@ -37,7 +37,7 @@ function WhoWeServe() {
 
 function AboutUs(){
   return (
-      <AboutUsDesktop/>
+      <AboutUsAll/>
   )
 }
 
