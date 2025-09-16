@@ -941,7 +941,7 @@ p {
   padding-left: 0;
 }
 
-.mainContentDesktopServices::before, .mainContentMobileServices::before, .mainContentAboutBanner::before {
+.mainContentDesktopServices::before, .mainContentMobileServices::before, .mainContentAboutBanner::before, #AddStandardColors::before {
   content: "";
   position: absolute;
   inset: 0;
