@@ -1629,3 +1629,7 @@ input:focus, textarea:focus {
   width: 100vw;
   left: 0;
 }
+
+#MakeABitSmaller{
+  width: 70vw;
+}
