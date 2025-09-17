@@ -9,12 +9,30 @@ function AboutUsFounder(props) {
             <div className='ImageContentMobileWhod'>
                 <img className = "MobileImage" src= {props.src} alt={props.alt || "unknow"} id = {props.imgID} />
             </div>
-                <h4 className='AboutextServicesMobile' id = {props.hID}>
-                    {props.headerText}
-                </h4>
+
+            {/* Purely Decorative */}
+            <div className='designLine'>
+            </div>
+
+            <h4 className='AboutextFounderMobile' id = {props.hID}>
+                {props.headerText}
+            </h4>
+            <p className='TitleMobile'>
+                {props.titleMobile}
+            </p>
             <div className='TextContentAboutMobile'>
                 <p id = {props.pID}>
                     {props.text}
+                </p>          
+            </div>
+            <div className='TextContentAboutMobile'>
+                <p id = {props.pID}>
+                    {props.text2}
+                </p>          
+            </div>
+            <div className='TextContentAboutMobile'>
+                <p id = {props.pID}>
+                    {props.text3}
                 </p>          
             </div>
         </div>

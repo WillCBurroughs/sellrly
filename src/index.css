@@ -1526,7 +1526,7 @@ input:focus, textarea:focus {
   position: relative;
   overflow: hidden;
   top: 0;
-  width: 100vw;
+  width: 100%;
   left: 0;
   height: auto;
   padding-top: 200px;
@@ -1670,6 +1670,10 @@ input:focus, textarea:focus {
   padding-top: 40px;
 }
 
+.AboutextFounderMobile{
+
+}
+
 .TextContentAboutMobile{
   margin-top: 0;
   padding-left: 40px;
@@ -1691,4 +1695,25 @@ input:focus, textarea:focus {
 
 #AdjustFounderSize{
   width: 50vw;
+}
+
+.mainContentMobileFounder{
+  margin-top: 20px;
+}
+
+.designLine{
+  align-self: center;
+  background: linear-gradient(180deg, rgba(212, 210, 252, 0.10) 66.43%, rgba(166, 160, 248, 0.10) 100.91%);
+  width: 50%;
+  height: 3px;
+  position: relative;
+  margin-top: 15vw;
+}
+
+.TitleMobile{
+  font-family: "Inter";
+  font-size: 16px;
+  color: #95A9B7;
+  font-weight: 700;
+  margin-top: -30px;
 }
