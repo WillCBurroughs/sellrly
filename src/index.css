@@ -1646,9 +1646,10 @@ input:focus, textarea:focus {
   justify-content: center;  
   align-items: center;
   margin-top: 0px;      
-  width: 100vw;
+  width: 100%;
   left: 0;
   gap: 40px;
+  padding: 0;
 }
 
 #MakeABitSmaller{
