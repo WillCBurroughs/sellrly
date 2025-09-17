@@ -1726,3 +1726,9 @@ input:focus, textarea:focus {
   font-family: "Inter";
   font-style: normal;
 }
+
+#AboutUsSpacing{
+  position: absolute;
+  top: calc(400px + 120vw);
+  left: 0;
+}
