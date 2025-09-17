@@ -20,6 +20,9 @@ function AboutUsMobileTopSectionsContainer(props) {
          />
         <AboutUsTopSections 
             imgID = "MakeABitSmaller"
+            hID = "changeHeaderColor"
+            pID = "changePColor"
+            id = "HoldSecondBanner"
             emphasis = "Sports Cards & Collectables" 
             headerText = "No Creative? No Problem."
             text = "Missing ad assets shouldn’t stop your stream from growing. Our built-in ad creation tool turns your idea into ready-to-run ads that grab attention and drive viewers."

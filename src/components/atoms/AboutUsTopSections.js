@@ -9,11 +9,11 @@ function AboutUsTopSections(props) {
             <div className='ImageContentMobileWhod'>
                 <img className = "MobileImage" src= {props.src} alt={props.alt || "unknow"} id = {props.imgID} />
             </div>
-                <h4 className='AboutextServicesMobile'>
+                <h4 className='AboutextServicesMobile' id = {props.hID}>
                     {props.headerText}
                 </h4>
             <div className='TextContentAboutMobile'>
-                <p>
+                <p id = {props.pID}>
                     {props.text}
                 </p>          
             </div>

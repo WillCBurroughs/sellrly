@@ -1628,6 +1628,7 @@ input:focus, textarea:focus {
   margin-top: 500px;      
   width: 100vw;
   left: 0;
+  gap: 40px;
 }
 
 #MakeABitSmaller{
@@ -1646,4 +1647,12 @@ input:focus, textarea:focus {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
+}
+
+#changeHeaderColor{
+  color: rgba(14, 16, 61, 1);
+}
+
+#changePColor{
+  color: rgba(78, 98, 112, 1)
 }
