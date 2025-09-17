@@ -1633,3 +1633,17 @@ input:focus, textarea:focus {
 #MakeABitSmaller{
   width: 70vw;
 }
+
+.AboutextServicesMobile{
+  margin-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+.TextContentAboutMobile{
+  margin-top: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
