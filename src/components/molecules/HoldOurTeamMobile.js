@@ -14,8 +14,8 @@ function HoldOurTeamMobile(props) {
             Meet the experts behind Sellrly
         </h4>
         <div>
-        <AboutUsFounder src = {PaulMobile} imgID = "AdjustFounderSize"/>
-        <AboutUsFounder src = {AndrewMobile} imgID = "AdjustFounderSize"/>
+        <AboutUsFounder src = {PaulMobile} imgID = "AdjustFounderSize" headerText = "Paul Rothkopf" titleMobile = "COO"/>
+        <AboutUsFounder src = {AndrewMobile} imgID = "AdjustFounderSize" headerText = "Andrew Reis" titleMobile = "CEO"/>
         </div>
     </div>
     </>
