@@ -1564,7 +1564,7 @@ input:focus, textarea:focus {
   margin-left: 0;
 }
 
-.benefitDivMobileServices{
+.benefitDivMobileServices, .benefitDivWhoMobileServices{
   display: flex;
   flex-direction: column;
   width: calc(100vw - 200px);
@@ -1573,6 +1573,10 @@ input:focus, textarea:focus {
   position: relative;
   margin: 0 auto auto 0;
   padding: 0;
+}
+
+.benefitDivMobileServices{
+   margin: 0 auto;
 }
 
 .mainContentMobileServices{
@@ -1596,7 +1600,7 @@ input:focus, textarea:focus {
 
 #servicesSpacing{
   position: absolute;
-  top: calc(700px + 120vw);
+  top: calc(1200px + 90vw);
   left: 0;
 }
 

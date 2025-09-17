@@ -8,7 +8,7 @@ import Results from '../../images/Results.svg';
 function WhoWeServeSectionMobile(props) {
   return (
     <>
-    <div className='benefitDivMobileServices' id= {props.addSpace}>
+    <div className='benefitDivWhoMobileServices' id= {props.addSpace}>
         <h2 className='benefitTextServicesMobile'>
             <div>
                 <EmphasisIcon className = "emphasisAdjust" text = {props.emphasis}/>
