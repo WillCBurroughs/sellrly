@@ -5,7 +5,7 @@ import TertiaryButton from '../atoms/TertiaryButton';
 
 function AboutUsMobileFold(props) {
   return (
-    <div className='contentMobile'>
+    <div className='contentMobileAbout'>
         <div className='leftHeroAboveFoldMobile'>
             <h1>
                 More Eyes. More Buyers. No Walls.
