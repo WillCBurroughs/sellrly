@@ -909,7 +909,7 @@ p {
   margin-bottom: 30px;
 }
 
-.mainContentDesktopServices, .mainContentMobileWhoWeServe, .mainContentMobileServices, .mainContentMobileServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
+.mainContentDesktopServices, .mainContentMobileWhoWeServe, .mainContentMobileFounder, .mainContentMobileServices, .mainContentMobileServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
   width: calc(100vw - 200px);
   height: 350px;
   display: flex;
@@ -927,18 +927,25 @@ p {
   height: 300px;
 }
 
-.mainContentDesktopWhoWeServe, .mainContentMobileWhoWeServe {
+.mainContentDesktopWhoWeServe, .mainContentMobileWhoWeServe, .mainContentMobileFounder {
   box-shadow: 0 4px 128px 0 rgba(166, 160, 248, 0.14);
   height: 450px;
 }
 
-.mainContentMobileWhoWeServe {
+.mainContentMobileWhoWeServe, .mainContentMobileFounder {
   width: calc(100vw - 100px); 
   height: auto;
   display: flex;
   flex-direction: column;
   margin: 0 auto; 
   padding-left: 0;
+}
+
+.mainContentMobileFounder{
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: none;
 }
 
 .mainContentDesktopServices::before, .mainContentMobileServices::before, .mainContentAboutBanner::before, #AddStandardColors::before {
@@ -1680,4 +1687,8 @@ input:focus, textarea:focus {
 
 .holdOurTeamMobile{
   padding: 40px;
+}
+
+#AdjustFounderSize{
+  width: 50vw;
 }
