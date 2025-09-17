@@ -1677,3 +1677,7 @@ input:focus, textarea:focus {
 #changePColor{
   color: rgba(78, 98, 112, 1)
 }
+
+.holdOurTeamMobile{
+  padding: 40px;
+}
