@@ -20,20 +20,16 @@ function AboutUsFounder(props) {
             <p className='TitleMobile'>
                 {props.titleMobile}
             </p>
-            <div className='TextContentAboutMobile'>
+            <div className='TextContentFounderMobile'>
                 <p id = {props.pID}>
                     {props.text}
                 </p>          
-            </div>
-            <div className='TextContentAboutMobile'>
                 <p id = {props.pID}>
                     {props.text2}
-                </p>          
-            </div>
-            <div className='TextContentAboutMobile'>
+                </p>     
                 <p id = {props.pID}>
                     {props.text3}
-                </p>          
+                </p>       
             </div>
         </div>
     </div>
