@@ -20,6 +20,7 @@ function VideoMobileHome(props) {
                 width="100%"
                 height="auto"
                 id='videoHome'
+                preload="auto"
                 controls
             >
             <source src= {SocialSelling} type="video/mp4" />
