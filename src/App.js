@@ -6,7 +6,7 @@ import HomePageAll from './components/pages/HomePageAll';
 import ServicesPageAll from './components/pages/ServicesPageAll';
 import WhoWeServeAll from './components/pages/WhoWeServeAll';
 import AboutUsAll from './components/pages/AboutUsAll';
-import ContactUsDesktop from './components/templates/ContactUsDesktop';
+import ContactUsAll from './components/pages/ContactUsAll';
 import TermsOfServiceDesktop from './components/templates/TermsOfServiceDesktop';
 import PrivacyPolicyDesktop from './components/templates/PrivacyPolicyDesktop';
 
@@ -44,7 +44,7 @@ function AboutUs(){
 function ContactUs(){
   return (
     <>
-      <ContactUsDesktop/>
+      <ContactUsAll/>
     </>
   )
 }
