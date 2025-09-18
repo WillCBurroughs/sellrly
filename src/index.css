@@ -1335,7 +1335,7 @@ p {
   top: 2200px;
 }
 
-.holdContactFormDesktop{
+.holdContactFormDesktop, .holdContactFormMobile{
   margin-top: 50px;
   padding-top: 50px;
   display: flex;
@@ -1348,6 +1348,12 @@ p {
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.10);
   background: rgba(255, 255, 255, 0.03);
+}
+
+.holdContactFormMobile{
+  width: 80%;
+  align-self: center;
+  margin: 0 auto;
 }
 
 input {
@@ -1386,9 +1392,13 @@ input:focus, textarea:focus {
   border: 2px solid #2A4D8E;
 }
 
-#message{
+#message, #messageMobile{
   height: 100px;
   padding-top: 20px;
+}
+
+#messageMobile{
+  width: 70vw;
 }
 
 .form-input {
@@ -1731,4 +1741,8 @@ input:focus, textarea:focus {
   position: absolute;
   top: calc(400px + 120vw);
   left: 0;
+}
+
+#Mobile1, #Mobile2, #Mobile3, #Mobile4{
+  width: 70vw;
 }
