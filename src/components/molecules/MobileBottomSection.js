@@ -59,7 +59,7 @@ export default function MobileBottomSection(props) {
     </div>
         <div className='FooterMobile' id= {props.id}>
         <img className = "SellrlyFooter" src={SellrlyFooter} alt='Sellrly Logo'/>
-        <h2 className='OutshineFooterDesktop'>Outsell. Outshine. Outdo.</h2>
+        <h5 className='OutshineFooterMobile'>Outsell. Outshine. Outdo.</h5>
         <PrimaryButton text = "Get Started with Sellrly" id = "FooterPrimary"/>
         <div className='SocialIconsDesktop'>
             <img src= {Facebook} alt='Facebook Sellrly'/>

@@ -856,7 +856,7 @@ p {
   width: 90%;
 }
 
-.OutshineFooterDesktop{
+.OutshineFooterDesktop, .OutshineFooterMobile{
   margin-top: 30px;
 }
 
