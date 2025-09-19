@@ -15,7 +15,7 @@ export default function NavBarMobile() {
   return (
     <>
       <nav>
-        <div className='NavDesktop'>
+        <div className='NavMobile'>
           <div className='logoLeft'><LogoTagline /></div>
           <div className='hamburger'>
             <img

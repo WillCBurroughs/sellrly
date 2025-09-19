@@ -17,7 +17,7 @@ body {
   background-color: black;
 }
 
-.NavDesktop {
+.NavDesktop, .NavMobile {
   position: fixed;
   background-image: linear-gradient(
     to bottom,
@@ -194,8 +194,6 @@ p {
   font-weight: 500;
   line-height: 160%; 
   letter-spacing: -0.32px;
-  z-index: 10;
-
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
