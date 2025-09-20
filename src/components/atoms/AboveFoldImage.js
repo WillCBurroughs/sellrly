@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../index.css'
-import HeroImage from '../../images/HeroImage.svg'
+import HeroImage from '../../images/HeroImage.webp'
 
 function AboveFoldImage(props) {
   return (
