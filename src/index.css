@@ -514,6 +514,11 @@ p {
   margin-top: calc(-400px + 40vw);
 }
 
+.SmallerIMG{
+  width: 50%;
+  max-width: 100px;
+}
+
 .BenefitsLeft, .BenefitsLeftMobile {
   width: 530px;
   padding-left: 100px;
