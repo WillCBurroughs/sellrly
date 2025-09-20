@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../../index.css'
 import LogoTagline from '../atoms/LogoTagline';
-import hamburgerMenuClosed from '../../images/HamburgerMenu.png';
+import hamburgerMenuClosed from '../../images/HamburgerMenu.svg';
 import hamburgerMenuOpened from '../../images/HamburgerMenuOpen.png';
 import MobileMenuDropdown from '../atoms/MobileMenuDropdown';
 import { useLocation } from 'react-router-dom';
