@@ -11,7 +11,7 @@ function VideoDesktopHome(props) {
             <EmphasisIcon text = "How it Works" />
         </div>
         <div>
-            <h1>
+            <h1 id='forJump'>
                 What makes Sellrly the best platform for social sellers?
             </h1>
         </div>
