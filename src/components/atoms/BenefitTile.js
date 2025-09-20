@@ -9,6 +9,7 @@ function BenefitTile(props) {
     >
         {props.text || "Default Text"}
         <img
+            id= {props.imgID || "Undefined"}
             src={props.src || "Undefined"}
             alt = {props.alt || "undefined"}
             className = {props.imgClass}

@@ -74,6 +74,7 @@ function BenefitsMobile(props) {
                         id = "mobileTile"
                         src = {activeTile === 'sell' ? CrossPlatform : CrossPlatformInactive}
                         isActive={activeTile === 'sell'}
+                        imgClass = "SmallerIMG"
                         onClick={() => handleTileClick('sell')}
                     />
                 </div>
@@ -84,6 +85,7 @@ function BenefitsMobile(props) {
                         id = "mobileTile2"
                         src = {activeTile === 'analytics' ? trackAnalyticsActive : trackAnalyticsInActive}
                         isActive={activeTile === 'analytics'}
+                        imgClass = "SmallerIMG"
                         onClick={() => handleTileClick('analytics')}
                     />
                 </div>
@@ -99,6 +101,7 @@ function BenefitsMobile(props) {
                         id = "mobileTile3"
                         src = {activeTile === 'views' ? GetMoreViewsActive : GetMoreViewsInActive}
                         isActive={activeTile === 'views'}
+                        imgClass = "SmallerIMG"
                         onClick={() => handleTileClick('views')}
                     />
                 </div>
@@ -107,6 +110,8 @@ function BenefitsMobile(props) {
                     <BenefitTile 
                         text = "Make More Sales"
                         id = "mobileTile4"
+                        imgID = "MakeUniqueIMGSmaller"
+                        imgClass = "SmallerIMG"
                         src = {activeTile === 'sales' ? MakeMoreSalesActive : MakeMoreSalesInActive}
                         isActive={activeTile === 'sales'}
                         onClick={() => handleTileClick('sales')}
