@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../index.css';
 import EmphasisIcon from '../atoms/EmphasisIcon';
+import VideoPoster from '../../images/ImagePoster.png';
 
 
 function VideoDesktopHome(props) {
