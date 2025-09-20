@@ -9,7 +9,7 @@ function WhoWeServeSectionMobile(props) {
   return (
     <>
     <div className='benefitDivWhoMobileServices' id= {props.addSpace}>
-        <h2 className='benefitTextServicesMobile'>
+        <h2 className='whoweServeTopSectionContainer'>
             <div>
                 <EmphasisIcon className = "emphasisAdjust" text = {props.emphasis}/>
             </div>

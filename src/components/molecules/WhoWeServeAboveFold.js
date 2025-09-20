@@ -10,10 +10,10 @@ function WhoWeServeAboveFold(props) {
   return (
     <div className='contentMobile'>
         <div className='leftHeroAboveFoldMobile'>
-            <h3>
+            <h3 className='adjustHeaderSize'>
                 For Social Sellers Ready to Max Out Every Stream            
             </h3>
-            <p>Sellrly blasts your stream across the web, targeting the right buyers and showing you exactly what works. More reach, more sales, no guesswork.</p>
+            <p className='adjustPSize'>Sellrly blasts your stream across the web, targeting the right buyers and showing you exactly what works. More reach, more sales, no guesswork.</p>
             <TertiaryButton text = "Get Started" />
         </div>
 
