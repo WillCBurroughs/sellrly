@@ -1,7 +1,6 @@
 import React from 'react';
 import '../../index.css';
 import EmphasisIcon from '../atoms/EmphasisIcon';
-import SocialSelling from '../../video/SocialSelling.mp4';
 
 function VideoMobileHome(props) {
   return (
@@ -23,7 +22,7 @@ function VideoMobileHome(props) {
                 preload="metadata"
                 controls
             >
-            <source src= {SocialSelling} type="video/mp4" />
+            <source src="/video/SocialSelling.mp4" type="video/mp4" />
             Your browser does not support the video tag.
             </video>
         </div>
