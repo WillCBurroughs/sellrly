@@ -1570,7 +1570,7 @@ input:focus, textarea:focus {
   width: 100%;
   left: 0;
   background: linear-gradient(180deg, #00090D 100%, #00101A 100%, #00101A 100%);
-  height: calc(100vh - 100px);
+  height: calc(100vh - 150px);
   align-items: center;
   position: fixed;
   z-index: 1;
