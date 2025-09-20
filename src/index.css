@@ -1637,7 +1637,7 @@ input:focus, textarea:focus {
 }
 
 #holdingCorrect {
-  top: calc(4300px - 25vw);
+  top: calc(4200px - 25vw);
   height: 400px;
   padding: 0px;
 }
@@ -1730,7 +1730,7 @@ input:focus, textarea:focus {
 
 #homeSpacer{
   position: absolute;
-  top: calc(-400px + 20vw);
+  top: calc(-500px + 20vw);
   left: 0;
 }
 
@@ -1865,4 +1865,8 @@ input:focus, textarea:focus {
   align-items: center;
   justify-content: center;
   display: flex;
+}
+
+.h1FaqsMobile{
+  font-size: 40px;
 }
