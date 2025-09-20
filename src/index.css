@@ -389,7 +389,7 @@ p {
 }
 
 .leftHeroAboveFoldMobile{
-  width: 70vw;
+  width: 90%;
   text-overflow: wrap;
   text-align: left;
   margin-top: -70px;
@@ -589,6 +589,7 @@ p {
   padding-right: 0;
   padding-left: 0;
   margin: 0 auto;
+  margin-top: 200px;
 }
 
 .ColumnBenefit{
@@ -750,7 +751,7 @@ p {
   left: 0;
   width: 100vw;
   height: auto;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 #faqP{
@@ -904,7 +905,7 @@ p {
 }
 
 .FooterMobile{
-  top: 5000px;
+  top: 5200px;
   position: relative;
   height: 800px;
 }
@@ -1634,10 +1635,11 @@ input:focus, textarea:focus {
 #mobileTile4, #mobileTile3, #mobileTile2, #mobileTile {
   width: 40vw;
   height: 50vw;
+  max-height: 200px;
 }
 
 #holdingCorrect {
-  top: calc(4200px - 25vw);
+  top: calc(4400px - 25vw);
   height: 400px;
   padding: 0px;
 }
