@@ -5,10 +5,12 @@ import SecondaryButton from '../atoms/SecondaryButton';
 import DesktopFAQSDropdown from '../atoms/DesktopFAQSDropdown';
 import SellrlyFooter from '../../images/SellrlyFooter.svg'
 import PrimaryButton from '../atoms/PrimaryButton';
-import Facebook from '../../images/Facebook.svg'
-import Instagram from '../../images/Instagram.svg'
-import Youtube from '../../images/Youtube.svg'
-import LinkedIn from '../../images/Linkedin.svg'
+import Facebook from '../../images/Facebook.svg';
+import Instagram from '../../images/Instagram.svg';
+import Youtube from '../../images/Youtube.svg';
+import LinkedIn from '../../images/Linkedin.svg';
+import { Link } from 'react-router-dom';
+
 
 
 export default function MobileBottomSection(props) {
@@ -82,8 +84,14 @@ export default function MobileBottomSection(props) {
             <p>
                 2025 @ Sellrly All Rights Reserved
             </p>
+
             <p>
-                <u>Terms and Conditions</u> & <u>Privacy Policy</u>
+              <Link to="/terms-of-service" className="custom-link">
+                <u>Terms and Conditions</u>
+              </Link> & 
+              <Link to="/privacy-policy" className="custom-link">
+                <u>Privacy Policy</u>
+              </Link>
             </p>
         </div>
     </div>
