@@ -22,7 +22,7 @@ export default function MobileBottomSection(props) {
     <div className='spacer' id = {props.spacer}>
     <div className='FAQSMobile' id= {props.id}>
         <div className='leftHeroFAQS'>
-            <h1 className='h1Faqs'>
+            <h1 className='h1FaqsMobile'>
                 Frequently Asked Questions
             </h1>
             <p className='blr' id=''>We serve as a convenient resource for users, customers, or readers to find solutions to their queries.</p>
