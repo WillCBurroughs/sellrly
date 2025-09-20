@@ -1756,3 +1756,13 @@ input:focus, textarea:focus {
 #Mobile1, #Mobile2, #Mobile3, #Mobile4{
   width: 70vw;
 }
+
+.adjustHeaderSize{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.adjustPSize{
+  font-size: 14px;
+}
