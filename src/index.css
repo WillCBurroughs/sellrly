@@ -859,10 +859,19 @@ p {
   margin-top: 50px;
 }
 
+#secondaryLeftMobileBig{
+  margin-top: 50px;
+}
+
 #secondaryRightDesktopBig {
   margin-left: 64px;
   margin-top: 190px;
 }
+
+#secondaryRightMobileBig {
+  margin-top: 150px;
+}
+
 
 .FooterDesktop, .FooterMobile {
   position: absolute;
@@ -880,8 +889,13 @@ p {
 }
 
 .FooterMobile{
-  margin-top: 100px;
+  top: 5000px;
+  position: relative;
   height: 800px;
+}
+
+.bigdesktopmobile{
+  font-size: 32px;
 }
 
 .SellrlyFooter {
@@ -1608,8 +1622,7 @@ input:focus, textarea:focus {
 }
 
 #holdingCorrect {
-  top: calc(4200px - 15vh);
-  margin-top: 100px;
+  top: calc(4000px - 15vh);
 }
 
 
