@@ -88,9 +88,9 @@ export default function MobileBottomSection(props) {
             <p>
               <Link to="/terms-of-service" className="custom-link">
                 <u>Terms and Conditions</u>
-              </Link> & 
+              </Link> & <br></br>
               <Link to="/privacy-policy" className="custom-link">
-                <u>Privacy Policy</u>
+                <u> Privacy Policy</u>
               </Link>
             </p>
         </div>
