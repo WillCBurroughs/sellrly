@@ -1633,7 +1633,7 @@ input:focus, textarea:focus {
 
 #mobileTile4, #mobileTile3, #mobileTile2, #mobileTile {
   width: 40vw;
-  height: 30vh;
+  height: 50vw;
 }
 
 #holdingCorrect {
