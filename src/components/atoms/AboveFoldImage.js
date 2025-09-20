@@ -5,7 +5,7 @@ import HeroImage from '../../images/HeroImage.svg'
 function AboveFoldImage(props) {
   return (
     <img 
-        className='HeroImage' 
+        className= {props.imgClass || 'HeroImage' }
         id={props.id || undefined} 
         alt={props.alt || "Logo"}
         src={props.src || HeroImage}
