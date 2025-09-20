@@ -12,6 +12,7 @@ function AboutUsMobileTopSectionsContainer(props) {
     <div className='holdAboutUsTopSections'>
         <AboutUsTopSections 
             imgID = "MakeABitSmaller"
+            pID = "StandardPTage"
             id = "AddStandardColors"
             addSpace = "AddSpaceTop"
             headerText = "We Built Sellrly to help you Grow Your Audience"

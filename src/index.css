@@ -1823,6 +1823,21 @@ input:focus, textarea:focus {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 40px;
+  color:  #CBE0EF;
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; 
+}
+
+#StandardPTage, #changePColor{
+  color: rgba(203, 224, 239, 0.75);
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px;
 }
 
 .AboutextFounderMobile{
@@ -1841,7 +1856,7 @@ input:focus, textarea:focus {
 }
 
 #changePColor{
-  color: rgba(78, 98, 112, 1)
+  color: #4E6270;
 }
 
 .holdOurTeamMobile{
@@ -1884,7 +1899,7 @@ input:focus, textarea:focus {
 
 #AboutUsSpacing{
   position: absolute;
-  top: calc(400px + 120vw);
+  top: calc(0px + 120vw);
   left: 0;
 }
 
