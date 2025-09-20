@@ -11,7 +11,7 @@ function HomePageMobile(props) {
         <HomeAboveFoldMobileMobile/>
         <VideoMobileHome/>
         <BenefitsMobile/>
-        <MobileBottomSection prefooterid = "holdingCorrect" prefooterdesktop = "adjustMobile" newclassbigdiv = "newclassbigdiv" />
+        <MobileBottomSection spacer = "homeSpacer" prefooterid = "holdingCorrect" prefooterdesktop = "adjustMobile" newclassbigdiv = "newclassbigdiv" />
     </>
   );
 }
