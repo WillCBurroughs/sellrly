@@ -6,7 +6,7 @@ import SocialSelling from '../../video/SocialSelling.mp4';
 function VideoMobileHome(props) {
   return (
     <div className='VideoMobileHome'>
-        <div>
+        <div className='holdEmphasisMobile'>
             <EmphasisIcon text = "How it Works" />
         </div>
         <div>

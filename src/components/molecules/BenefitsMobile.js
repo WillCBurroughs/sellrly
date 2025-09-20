@@ -50,7 +50,7 @@ function BenefitsMobile(props) {
         {/* Left side benefits - column */}
         <div className='BenefitsLeftMobile'>
             <EmphasisIcon text = {tileData[activeTile].label}/>
-            <h2>
+            <h2 className='adjustHeaderSize'>
                 Total Reach Streaming
             </h2>
             {/* div for buttons row */}

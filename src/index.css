@@ -472,18 +472,19 @@ p {
 }
 
 .VideoMobileHome {
-  align-items: left;
-  flex-direction: column;
-  background-color: transparent; 
-  justify-content: space-between;           
-  text-align: left; 
   position: absolute;
-  overflow: hidden;
   top: calc(1200px - 10vw);
-  width: calc(100vw - 100px);
-  left: 0;
-  height: auto;
-  padding-left: 60px;
+
+  left: 50%;
+  transform: translateX(-50%);  
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 90%;
+  margin: 0; 
 }
 
 .videoArea {
@@ -503,7 +504,14 @@ p {
   border: 1px solid #2F3438;
   box-shadow: 0 4px 64px 0 rgba(33, 193, 243, 0.10);
   width: fit-content; 
-  width: calc(100vw - 160px);  
+  width: calc(100%);  
+}
+
+.holdEmphasisMobile{
+  display: flex;
+  margin-left: 0;
+  width: 100%;
+  justify-content: flex-start;  
 }
 
 .BenefitsDesktop, .BenefitsMobile {
@@ -742,6 +750,7 @@ p {
   left: 0;
   width: 100vw;
   height: auto;
+  margin-top: 50px;
 }
 
 #faqP{
