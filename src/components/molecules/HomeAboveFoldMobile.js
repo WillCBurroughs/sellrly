@@ -6,7 +6,7 @@ import AboveFoldImage from '../atoms/AboveFoldImage';
 
 function HomeAboveFoldMobileMobile(props) {
   return (
-    <div className='contentMobile'>
+    <div className='contentMobileHome'>
         <div className='leftHeroAboveFoldMobile'>
             <h1 className='adjustHeaderSize'>
                 Outsell. Outshine. Outdo.
