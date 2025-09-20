@@ -991,7 +991,13 @@ p {
 
 .benefitTextServicesMobile{
   margin-top: 200px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
+  display: flex;
+  width: 90vw;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  justify-content: flex-start;
 }
 
 .mainContentDesktopServices, .mainContentMobileWhoWeServe, .mainContentMobileFounder, .mainContentMobileServices, .mainContentMobileServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
@@ -1085,6 +1091,25 @@ p {
   margin-bottom: 30px;
   font-weight: 400;
 }
+
+.SecondaryHeaderMobileServices{
+  color: var(--Ice-Blue);
+  font-family: "Inter";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.paragraphContentMobileServices, .paragraphContentMobileServicesSecondary{
+  color: rgba(203, 224, 239, 0.75);
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
 
 .paragraphContentDesktopServices {
   margin-bottom: 10px;
@@ -1709,7 +1734,7 @@ input:focus, textarea:focus {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: 90vw;
+  width: 80vw;
   margin: 0 auto auto 0;
   align-items: center;
   margin-right: 0;
@@ -1721,12 +1746,12 @@ input:focus, textarea:focus {
 }
 
 #holdFirst{
-  margin-top: 350px;
+  margin-top: 250px;
 }
 
 #servicesSpacing{
   position: absolute;
-  top: calc(1200px + 90vw);
+  top: calc(600px + 90vw);
   left: 0;
 }
 
