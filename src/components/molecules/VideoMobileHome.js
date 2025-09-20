@@ -10,7 +10,7 @@ function VideoMobileHome(props) {
             <EmphasisIcon text = "How it Works" />
         </div>
         <div>
-            <h1>
+            <h1 className='adjustHeaderSize'>
                 What makes Sellrly the best platform for social sellers?
             </h1>
         </div>

@@ -64,7 +64,7 @@ function BenefitsMobile(props) {
         </div>
 
         {/* Right side benefits */}
-        <div className='BenefitsRight'>
+        <div className='BenefitsRightMobile'>
             {/* Left column benefits */}
             <div className='ColumnBenefit'>
                 {/* Sell Cross platform */}

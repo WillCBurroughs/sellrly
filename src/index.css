@@ -460,9 +460,8 @@ p {
   top: calc(1200px - 10vw);
   width: calc(100vw - 100px);
   left: 0;
-  height: 840px;
+  height: auto;
   padding-left: 60px;
-  padding-bottom: 100px;
 }
 
 .videoArea {
@@ -505,11 +504,14 @@ p {
 
 .BenefitsMobile {
   flex-direction: column-reverse;
-  width: 80vw;
+  position: relative;
+  width: 90vw;
   align-items: center;
-  padding-left: 100px;
-  margin-top: 200px;
-  padding-top: 20px;
+  padding-top: 0px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: calc(-400px + 40vw);
 }
 
 .BenefitsLeft, .BenefitsLeftMobile {
@@ -530,7 +532,7 @@ p {
   margin-top: 30px;
 }
 
-.BenefitsRight {
+.BenefitsRight, .BenefitsRightMobile {
   padding-right: 15%;
   gap: 16px;
   width: 530px;
@@ -539,6 +541,15 @@ p {
   flex-direction: row;
   background-color: transparent; 
   justify-content: center;  
+}
+
+.BenefitsRightMobile{
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  padding: 20px;
+  padding-right: 0;
+  margin: 0 auto;
 }
 
 .ColumnBenefit{
