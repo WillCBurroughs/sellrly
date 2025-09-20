@@ -407,12 +407,13 @@ p {
 }
 
 .rightHeroAboveFoldMobile{
-  margin-top: 20px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   width: 50vw;
   padding-right: 0px;
 }
+
 
 .jumpButton {
   background: rgba(255, 255, 255, 0.05); 
@@ -434,7 +435,7 @@ p {
   z-index: 20;
 }
 
-.Emphasis {
+.Emphasis, .EmphasisMobile {
   color: var(--Ice-Blue);
   border-radius: 8px;
   background-color: rgba(203, 224, 239, 0.10);
@@ -443,6 +444,12 @@ p {
   border: 1px solid rgba(203, 224, 239, 0.15);
   margin-right: 20px;
   margin-top: 0px;
+}
+
+.EmphasisMobile{
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
 }
 
 .jumpButton:hover {
@@ -989,7 +996,7 @@ p {
   position: relative;
 }
 
-.benefitTextServicesMobile{
+.benefitTextServicesMobile, .whoweServeTopSectionContainer{
   margin-top: 200px;
   margin-bottom: 16px;
   display: flex;
@@ -998,6 +1005,14 @@ p {
   font-style: normal;
   font-weight: 500;
   justify-content: flex-start;
+}
+
+.whoweServeTopSectionContainer{
+  flex-direction: column;
+  margin: 0 auto;
+  width: 70vw;
+  margin-top: 200px;
+  margin-bottom: 16px;
 }
 
 .mainContentDesktopServices, .mainContentMobileWhoWeServe, .mainContentMobileFounder, .mainContentMobileServices, .mainContentMobileServices, .mainContentDesktopWhoWeServe, .mainContentAboutBanner {
@@ -1133,9 +1148,9 @@ p {
 }
 
 .MobileImage{
-  margin-bottom: -100px;
+  margin-bottom: -90px;
   margin-top: 0px;
-  width: 80vw;
+  width: 70vw;
 }
 
 #TrackYourAnalytics{
@@ -1783,7 +1798,7 @@ input:focus, textarea:focus {
 
 #WhoWeServeSpacing{
   position: absolute;
-  top: calc(4400px + 130vw);
+  top: calc(3300px + 130vw);
   left: 0;
 }
 
