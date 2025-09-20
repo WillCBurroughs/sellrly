@@ -39,22 +39,22 @@ export default function MobileBottomSection(props) {
                 className={`preFooterBigDivDesktop ${active === "top" ? "active" : "inactive"} ${props.newclassbigdiv}`}
                 onMouseEnter={() => setActive("top")}
               >
-                <h2 className='bigdesktopheader'>
+                <h2 className='bigdesktopmobile'>
                   Let’s Build a Bigger Audience for You
                 </h2>
-                <p className='bigdesktopP'>
+                <p className=''>
                   Start reaching more people today. Turning views into sales and unlock powerful analytics that maximize ROI.
                 </p>
-                <SecondaryButton text = "Start Growing Together" id = "secondaryLeftDesktopBig"/>
+                <SecondaryButton text = "Start Growing Together" id = "secondaryLeftMobileBig"/>
               </div>
               
               <div 
                className={`preFooterBigDivDesktop ${active === "bottom" ? "active" : "inactive"} ${props.newclassbigdiv}`}
                onMouseEnter={() => setActive("bottom")} >
-                <h2 className='bigdesktopheader'>
+                <h2 className='bigdesktopmobile'>
                   Still Have Questions
                 </h2>
-                <SecondaryButton text = "Contact Us" id = "secondaryRightDesktopBig"/>
+                <SecondaryButton text = "Contact Us" id = "secondaryRightMobileBig"/>
 
               </div>
         </div>
