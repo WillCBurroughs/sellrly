@@ -366,6 +366,28 @@ p {
   margin-top: -70px;
 }
 
+#h1Faqs{
+  font-size: 36px;
+}
+
+.leftHeroFAQS{
+  width: 80vw;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rightHeroFaqs{
+  margin-top: 100px;
+  width: 80vw;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .leftHeroAboveFoldMobile{
   width: 70vw;
   text-overflow: wrap;
@@ -731,10 +753,10 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 100px;
   padding-right: 0px;
   padding-top: 0px;
-  margin-top: -500px;
+  position: relative;
+  margin-bottom: 200px;
 }
 
 .accordion-title, .accordion-title-Active {
@@ -786,6 +808,8 @@ p {
   gap: 30px;
   align-items: center;
   justify-content: center;
+  position: relative;
+  margin-top: 400px;
 }
 
 
@@ -1242,6 +1266,7 @@ p {
   box-shadow: none;
 }
 
+
 #HoldSecondBanner::before {
     background: transparent;
   -webkit-mask: 
@@ -1653,6 +1678,12 @@ input:focus, textarea:focus {
 #servicesSpacing{
   position: absolute;
   top: calc(1200px + 90vw);
+  left: 0;
+}
+
+#homeSpacer{
+  position: absolute;
+  top: calc(-400px + 20vw);
   left: 0;
 }
 

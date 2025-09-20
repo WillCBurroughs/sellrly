@@ -21,14 +21,14 @@ export default function MobileBottomSection(props) {
     <>
     <div className='spacer' id = {props.spacer}>
     <div className='FAQSMobile' id= {props.id}>
-        <div className='leftHeroAboveFold'>
-            <h1>
+        <div className='leftHeroFAQS'>
+            <h1 className='h1Faqs'>
                 Frequently Asked Questions
             </h1>
-            <p className='blr' id='faqMobile'>We serve as a convenient resource for users, customers, or readers to find solutions to their queries.</p>
+            <p className='blr' id=''>We serve as a convenient resource for users, customers, or readers to find solutions to their queries.</p>
         </div>
 
-        <div className='rightHeroAboveFold'>
+        <div className='rightHeroFaqs'>
             <DesktopFAQSDropdown id = "mobileDropdown" />
         </div>
     </div>
