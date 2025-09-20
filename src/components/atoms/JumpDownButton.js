@@ -5,7 +5,7 @@ import Arrow from '../../images/Arrow.svg'
 function JumpDownButton(props) {
 
   const handleScroll = () => {
-    const section = document.getElementById('videoHome');
+    const section = document.getElementById('forJump');
     if (section) {
       section.scrollIntoView({ behavior: 'smooth' });
     }
