@@ -813,6 +813,12 @@ p {
   flex-direction: row;
 }
 
+.preFooterMobile{
+  top: 4200;
+  height: 400px;
+  width: 100%;
+}
+
 .PreFooterDesktopBackground {
   display: flex;
   flex-direction: row;
@@ -1622,7 +1628,9 @@ input:focus, textarea:focus {
 }
 
 #holdingCorrect {
-  top: calc(4000px - 15vh);
+  top: calc(4300px - 25vw);
+  height: 400px;
+  padding: 0px;
 }
 
 
