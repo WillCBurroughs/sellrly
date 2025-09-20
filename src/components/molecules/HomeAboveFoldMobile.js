@@ -24,7 +24,7 @@ function HomeAboveFoldMobileMobile(props) {
         </div>
 
         <div className='rightHeroAboveFoldMobile'>
-            <AboveFoldImage />
+            <AboveFoldImage imgClass = "adjustSizingAboveFoldIMG"/>
         </div>
     </div>
   );
