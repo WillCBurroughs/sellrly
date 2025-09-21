@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../index.css'
-import SellrlyTagline from '../../images/SellrlyTagline.svg'
+import SellrlyTagline from '../../images/SellrlyTagline.svg';
+
 
 function LogoTagline(props) {
   return (

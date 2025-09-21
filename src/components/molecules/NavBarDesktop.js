@@ -10,9 +10,11 @@ export default function NavBarDesktop() {
   return (
     <nav>
       <div className='NavDesktop'>
-        <div className='logoLeft'>
-          <LogoTagline />
-        </div>
+        <Link className="navlink-reset" to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} end>
+          <div className='logoLeft'>
+            <LogoTagline />
+          </div>
+        </Link>
         <div className='linksNavDesktop'>
           <NavLink className="navlink-reset" to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} end><NavBarItem text="Home" /></NavLink>
           <NavLink className="navlink-reset" to="Services" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} end><NavBarItem text="Services" /></NavLink>

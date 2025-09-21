@@ -5,6 +5,7 @@ import hamburgerMenuClosed from '../../images/HamburgerMenu.svg';
 import hamburgerMenuOpened from '../../images/HamburgerMenuOpen.png';
 import MobileMenuDropdown from '../atoms/MobileMenuDropdown';
 import { useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export default function NavBarMobile() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,11 @@ export default function NavBarMobile() {
     <>
       <nav>
         <div className='NavMobile'>
-          <div className='logoLeft'><LogoTagline /></div>
+          <Link className="navlink-reset" to="/" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} end>
+            <div className='logoLeft'>
+              <LogoTagline />
+            </div>
+          </Link>
           <div className='hamburger'>
             <img
               src={isOpen ? hamburgerMenuOpened : hamburgerMenuClosed}
