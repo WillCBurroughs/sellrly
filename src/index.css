@@ -1857,7 +1857,7 @@ input:focus, textarea:focus {
 
 #homeSpacer{
   position: absolute;
-  top: calc(700px + 20vw);
+  top: calc(340px + 30vw);
   left: 0;
 }
 
