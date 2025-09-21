@@ -9,9 +9,9 @@ function ComparisonRowDesktop(props) {
   return (
     <div className='comparisonRow'>
       <p className='blb'>{props.text}</p>
-      <div className='cell'><img src={isLayout1 ? x : check} alt={isLayout1 ? 'x' : 'check'} /></div>
-      <div className='cell'><img src={isLayout1 ? x : check} alt={isLayout1 ? 'x' : 'check'} /></div>
       <div className='cell'><img src={check} alt="check" /></div>
+      <div className='cell'><img src={isLayout1 ? x : check} alt={isLayout1 ? 'x' : 'check'} /></div>
+      <div className='cell'><img src={isLayout1 ? x : check} alt={isLayout1 ? 'x' : 'check'} /></div>
     </div>
   );
 }

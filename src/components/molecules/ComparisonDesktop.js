@@ -19,9 +19,9 @@ function ComparisonDesktop(props) {
                 <div className='tableContent'>
                 <div className='Competitors'>
                     <div style={{ visibility: 'hidden' }}>&nbsp;</div> 
+                    <CompetitorsDesktop src={Sellrly} />
                     <CompetitorsDesktop src={Meta} />
                     <CompetitorsDesktop src={TikTok} />
-                    <CompetitorsDesktop src={Sellrly} />
                 </div>
 
                 <ComparisonRowDesktop layout = "1" text="Cross Platform Reach" />
