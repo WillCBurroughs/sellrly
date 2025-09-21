@@ -652,7 +652,15 @@ p {
   align-items: center;
 }
 
-.comparisonDesktopBackground, .PreFooterDesktopBackground {
+.comparisonMobile{
+  position: relative;
+  background-color: transparent;
+  align-content: center;
+  align-items: center;
+  margin-top: 600px;
+}
+
+.comparisonDesktopBackground, .PreFooterDesktopBackground, .comparisonMobileBackground {
   width: calc(100vw - 30px);
   height: 1080px;
   background-color: rgba(255, 255, 255, 0.03);
@@ -660,6 +668,64 @@ p {
   border-radius: 24px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.mobileAdjustComparison{
+  color: #CBE0EF;
+  font-family: "Clash-Grotesk";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.ComparisonTextMobileFeature{
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25.2px; 
+  color: #CBE0EF;
+}
+
+.comparisonRowMobile{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.CompetitorsMobile{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  width: calc(100% + 25px);
+  flex-direction: row; 
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.DoesNotHaveFeature{
+  margin-right: -3px;
+}
+
+.cellMobile{
+  margin-right: 40px;
+}
+
+#LeftArrow{
+  margin-right: -140px;
+}
+
+.arrowbutton{
+  background: transparent;
+  border: none;
+
+}
+
+.comparisonMobileBackground{
+  height: auto;
+  padding-bottom: 20px;
+  max-width: 90%;
 }
 
 .PreFooterDesktopBackground {
@@ -672,8 +738,27 @@ p {
   max-width: 80vw;
 }
 
-.aquaBlue{
+.holdContentMobile {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  max-width: 80%;
+}
+
+.aquaBlue, .aquaBlueMobile{
   color: #CBE0EF;
+}
+
+.aquaBlueMobile, .aquaBlueAlt{
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.2px;
+}
+
+.aquaBlueAlt{
+  color: #9AACBB;
 }
 
 .tableContent {
@@ -1772,7 +1857,7 @@ input:focus, textarea:focus {
 
 #homeSpacer{
   position: absolute;
-  top: calc(-500px + 20vw);
+  top: calc(700px + 20vw);
   left: 0;
 }
 
