@@ -36,11 +36,11 @@ function FooterDesktop(props) {
                 2025 @ Sellrly All Rights Reserved
             </p>
             <p>
-               <Link to="/terms-of-service" className="custom-link">
+               <Link to="/terms-of-service" className="custom-link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                     <u>Terms and Conditions</u>
                </Link>
                 <nbsp></nbsp> & <nbsp></nbsp>
-               <Link to="/privacy-policy" className="custom-link">
+               <Link to="/privacy-policy" className="custom-link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                     <u>Privacy Policy</u>
                </Link>
             </p>
