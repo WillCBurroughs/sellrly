@@ -1008,7 +1008,7 @@ p {
   margin-top: 50px;
 }
 
-#MakeRelativePos{
+#MakeRelativePos, #MakeRelativePos2{
   position: static;
 }
 
@@ -2030,6 +2030,6 @@ input:focus, textarea:focus {
   font-size: 40px;
 }
 
-#MakeBig, #MakeBig2, #MakeBig3, #MakeBig4, #MakeBig5, #MakeBig6, #MakeBig7, #MakeBig8, #MakeBig9, #MakeBig10, #MakeBig11, #MakeBig12 {
+#MakeBig, #MakeBig2, #MakeBig3, #MakeBig4, #MakeBig5, #MakeBig6, #MakeBig7, #MakeBig8, #MakeBig9, #MakeBig10, #MakeBig11, #MakeBig12, #MakeBig13, #MakeBig14, #MakeBig15, #MakeBig16, #MakeBig17, #MakeBig18, #MakeBig19, #MakeBig20, #MakeBig21, #MakeBig22, #MakeBig23, #MakeBig24, #MakeBig25{
   width: 100%;
 }

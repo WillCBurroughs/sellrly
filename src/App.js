@@ -8,7 +8,7 @@ import WhoWeServeAll from './components/pages/WhoWeServeAll';
 import AboutUsAll from './components/pages/AboutUsAll';
 import ContactUsAll from './components/pages/ContactUsAll';
 import TermsOfServiceAll from './components/pages/TermsOfServiceAll';
-import PrivacyPolicyDesktop from './components/templates/PrivacyPolicyDesktop';
+import PrivacyPolicyAll from './components/pages/PrivacyPolicyAll';
 
 // Homepage for routing
 function HomePage() {
@@ -60,7 +60,7 @@ function TermsOfService(){
 function PrivacyPolicy() {
   return (
     <>
-      <PrivacyPolicyDesktop/>
+      <PrivacyPolicyAll/>
     </>
   );
 }
