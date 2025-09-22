@@ -1800,8 +1800,9 @@ input:focus, textarea:focus {
 }
 
 .newclassbigdiv {
-  width: 80vw;
+  width: 80%;
   padding: 20px;
+  margin-top: 15px;
   height: auto;
 }
 
