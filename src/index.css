@@ -981,7 +981,7 @@ p {
 }
 
 
-.FooterDesktop, .FooterMobile {
+.FooterDesktop, .FooterMobile, .FooterMobileTerms {
   position: absolute;
   top: 5400px;
   background-color: rgba(255, 255, 255, 0.03);
@@ -996,10 +996,20 @@ p {
   align-items: center;
 }
 
-.FooterMobile{
+.FooterMobile, .FooterMobileTerms{
   top: 5200px;
   position: relative;
   height: 800px;
+}
+
+.FooterMobileTerms{
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+}
+
+#MakeRelativePos{
+  position: static;
 }
 
 .bigdesktopmobile{
@@ -1741,6 +1751,13 @@ input:focus, textarea:focus {
   position: relative;
 }
 
+#adjustPadding{
+  padding-top: 150px;
+  padding-left: 30px;
+  width: 90%;
+  align-self: center;
+}
+
 .contentMobileAbout{
   display: flex;
   align-items: center;
@@ -2011,4 +2028,8 @@ input:focus, textarea:focus {
 
 .h1FaqsMobile{
   font-size: 40px;
+}
+
+#MakeBig, #MakeBig2, #MakeBig3, #MakeBig4, #MakeBig5, #MakeBig6, #MakeBig7, #MakeBig8, #MakeBig9, #MakeBig10, #MakeBig11, #MakeBig12 {
+  width: 100%;
 }

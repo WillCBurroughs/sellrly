@@ -5,7 +5,7 @@ import '../../index.css';
 function SectionTerms(props) {
   return (
     <div>
-        <div className='TopDivider'></div>
+        <div className='TopDivider' id = {props.SpacertopID}></div>
         <h3>{props.text}</h3>
         <p className='subtext'>{props.subtext}</p>
         <p className='mainText'>{props.maintext}</p>
