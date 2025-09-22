@@ -3,7 +3,7 @@ import '../../index.css';
 import TertiaryButton from '../atoms/TertiaryButton';
 import SecondaryButton from '../atoms/SecondaryButton';
 import DesktopFAQSDropdown from '../atoms/DesktopFAQSDropdown';
-import SellrlyFooter from '../../images/SellrlyFooter.svg'
+import SellrlyFooter from '../../images/SellrlyFooter.svg';
 import PrimaryButton from '../atoms/PrimaryButton';
 import Facebook from '../../images/Facebook.svg';
 import Instagram from '../../images/Instagram.svg';

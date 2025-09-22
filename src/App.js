@@ -7,7 +7,7 @@ import ServicesPageAll from './components/pages/ServicesPageAll';
 import WhoWeServeAll from './components/pages/WhoWeServeAll';
 import AboutUsAll from './components/pages/AboutUsAll';
 import ContactUsAll from './components/pages/ContactUsAll';
-import TermsOfServiceDesktop from './components/templates/TermsOfServiceDesktop';
+import TermsOfServiceAll from './components/pages/TermsOfServiceAll';
 import PrivacyPolicyDesktop from './components/templates/PrivacyPolicyDesktop';
 
 // Homepage for routing
@@ -52,7 +52,7 @@ function ContactUs(){
 function TermsOfService(){
   return (
     <>
-      <TermsOfServiceDesktop/>
+      <TermsOfServiceAll/>
     </>
   )
 }
