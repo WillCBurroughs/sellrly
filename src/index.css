@@ -870,6 +870,10 @@ p {
   height: auto;
 }
 
+.acccordion-item{
+  width: 400px;
+}
+
 .accordion-title, .accordion-title-Active {
   display: inline-flex;
   justify-content: space-between;
@@ -888,14 +892,18 @@ p {
   overflow: visible;
 }
 
+.accordion-item .accordion-content {
+  margin-left: 70px;
+}
+
 .accordion-title-Active{
   color: white;
 }
 
 .accordion-content {
   text-align: left;
-  margin-left: 20px;
   max-width: 90vw;
+  width: 400px;
   padding-bottom: 20px;
   color: #95A9B7;
   overflow: visible;
