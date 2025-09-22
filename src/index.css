@@ -378,7 +378,7 @@ p {
   width: 80vw;
   text-align: left;
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
 }
 
