@@ -1909,7 +1909,7 @@ input:focus, textarea:focus {
   flex-direction: column;
   justify-content: center;  
   align-items: center;
-  margin-top: 0px;      
+  margin-top: -200px;      
   width: 100%;
   left: 0;
   gap: 40px;
@@ -2001,7 +2001,7 @@ input:focus, textarea:focus {
 
 #AboutUsSpacing{
   position: absolute;
-  top: calc(0px + 120vw);
+  top: calc(0px + 100vw);
   left: 0;
 }
 
