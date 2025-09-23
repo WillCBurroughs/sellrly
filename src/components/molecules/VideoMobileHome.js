@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import '../../index.css';
 import EmphasisIcon from '../atoms/EmphasisIcon';
-import VideoPoster from '../../images/Video-Image-Preview.png';
+import VideoPoster from '../../images/Video-Image-Preview.webp';
 
 function VideoMobileHome(props) {
   const videoRef = useRef(null);
