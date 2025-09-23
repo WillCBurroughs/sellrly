@@ -3,7 +3,6 @@ import '../../index.css';
 import TertiaryButton from '../atoms/TertiaryButton';
 import AboveFoldImage from '../atoms/AboveFoldImage';
 
-
 function HomeAboveFold(props) {
   return (
     <div className='contentBlock'>
