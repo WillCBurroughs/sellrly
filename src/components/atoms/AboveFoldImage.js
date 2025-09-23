@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../index.css'
-import HeroImage from '../../images/HeroImage.webp'
+import HeroImage from '../../images/SellrlyHero.webp'
 
 function AboveFoldImage(props) {
   return (
@@ -9,6 +9,8 @@ function AboveFoldImage(props) {
         id={props.id || undefined} 
         alt={props.alt || "Logo"}
         src={props.src || HeroImage}
+        fetchpriority="high"
+        decoding="async"
     />
   );
 }
