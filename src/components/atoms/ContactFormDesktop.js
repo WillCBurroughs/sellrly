@@ -86,7 +86,7 @@ function ContactFormDesktop(props) {
             value={formData.message || ""}
             onChange={handleChange}
         ></textarea>
-            <button type="submit" className="SubmitContact" onClick={handleSubmit} >
+            <button type="submit" className="SubmitContact" id='zIndex10' onClick={handleSubmit} >
                 Submit 
             </button>
     </div>

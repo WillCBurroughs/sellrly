@@ -91,7 +91,7 @@ function ContactFormMobile(props) {
             value={formData.message || ""}
             onChange={handleChange}
         ></textarea>
-            <button type="submit" className="SubmitContact" onClick={handleSubmit} >
+            <button type="submit" className="SubmitContact" id='standardzIndex' onClick={handleSubmit} >
                 Submit 
             </button>
     </div>
