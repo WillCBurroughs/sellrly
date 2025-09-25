@@ -15,10 +15,10 @@ function FooterDesktop(props) {
         <h2 className='OutshineFooterDesktop'>Outsell. Outshine. Outdo.</h2>
         <PrimaryButton text = "Get Started with Sellrly" id = "FooterPrimary"/>
         <div className='SocialIconsDesktop'>
-            <img src= {Facebook} alt='Facebook Sellrly'/>
+            <a href='https://www.facebook.com/profile.php?id=61581420927207'><img src= {Facebook} alt='Facebook Sellrly'/></a>
             <img src = {Instagram} alt = "Instagram Sellrly" />
             <img src = {Youtube} alt = "Youtube Sellrly" />
-            <img src = {LinkedIn} alt = "Linkedin Sellrly" />
+            <a href='https://www.linkedin.com/company/sellrly-com/'><img src = {LinkedIn} alt = "Linkedin Sellrly" /></a>
         </div>
         <p className='blr'>
             P.O. Box 616, Purchase, NY 10577
