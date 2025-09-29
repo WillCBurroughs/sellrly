@@ -37,7 +37,7 @@ function FoundersSectionDesktop(props) {
             founderFirstLines = "Punhon Chan is a veteran engineering leader with more than two decades of experience driving innovation in ad-tech and digital media. He has built and scaled platforms that power billions of impressions, combining deep technical expertise with a sharp eye for monetization strategies. Punhon specializes in harnessing AI and automation to replace manual processes, ensure compliance, and unlock new growth opportunities for digital commerce."
             />
             <FounderDesktop
-            founder = {Andrew}
+            founder = {Frank}
             id = "row-reverse"
             founderName = "Frank Brandstetter" 
             founderTitle = "Chief Media Officer" 
