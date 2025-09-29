@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import '../../index.css';
 import EmphasisIcon from '../atoms/EmphasisIcon';
-import VideoPoster from '../../images/Video-Image-Preview.webp';
+import alternativePoster from '../../images/AlternativePoster.webp';
 
 function VideoMobileHome(props) {
   const videoRef = useRef(null);
@@ -37,7 +37,7 @@ function VideoMobileHome(props) {
           width="100%"
           preload="none"
           controls
-          poster={VideoPoster}
+          poster={alternativePoster}
         >
           Your browser does not support the video tag.
         </video>
