@@ -35,6 +35,7 @@ function VideoMobileHome(props) {
           ref={videoRef}
           className="videoPlayer"
           width="100%"
+          height= "80%"
           preload="none"
           controls
           poster={alternativePoster}
