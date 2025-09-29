@@ -4,6 +4,8 @@ import EmphasisIcon from '../atoms/EmphasisIcon';
 import FounderDesktop from '../atoms/FounderDesktop';
 import Andrew from '../../images/Andrew.png';
 import Paul from '../../images/Paul.png';
+import Puonhan from '../../images/PunhanDesktop.png';
+import Frank from '../../images/FrankDesktop.png';
 
 function FoundersSectionDesktop(props) {
   return (
@@ -27,6 +29,19 @@ function FoundersSectionDesktop(props) {
             founderTitle = "CEO" 
             founderFirstLines = "Andrew is a serial entrepreneur with a proven track record of scaling category-defining companies across ad-tech, e-commerce, and digital media. He he has built and exited businesses representing over $2B in aggregate enterprise value while creating 2,200+ jobs. At Sellrly, Andrew brings his expertise to what he believes is the next great revolution in digital commerce,  live social selling. Already $175 B ( 800B by 2030) market in the US he recognizes the need for social sellers to promote their brand and sells beyond sellers’ native platforms along with the advent of self-serve advertising platform."
             founderNextLines = "As Mr. Reis says “We’re not just building an ad platform—we’re building the infrastructure for the $800B live social commerce economy of tomorrow."
+            />
+            <FounderDesktop
+            founder = {Puonhan}
+            founderName = "Punhon Chan" 
+            founderTitle = "CTO" 
+            founderFirstLines = "Punhon Chan is a veteran engineering leader with more than two decades of experience driving innovation in ad-tech and digital media. He has built and scaled platforms that power billions of impressions, combining deep technical expertise with a sharp eye for monetization strategies. Punhon specializes in harnessing AI and automation to replace manual processes, ensure compliance, and unlock new growth opportunities for digital commerce."
+            />
+            <FounderDesktop
+            founder = {Andrew}
+            id = "row-reverse"
+            founderName = "Frank Brandstetter" 
+            founderTitle = "Chief Media Officer" 
+            founderFirstLines = "A strategic and results-driven digital advertising leader with over 12 years of experience in technical integrations, operational excellence, go-to-market strategy, and business development. Demonstrated success in navigating complex programmatic ecosystems, optimizing ad operations, and cultivating high-impact partnerships that drive revenue growth. Adept at harnessing data analytics to streamline operations, ensure compliance with global privacy regulations (GDPR, COPPA, CCPA), and deliver measurable outcomes for leading global brands."
             />
         </div>
     </div>
