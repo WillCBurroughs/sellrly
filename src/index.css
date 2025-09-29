@@ -1488,7 +1488,7 @@ p {
   position: absolute;
   top: 1600px;
   width: 100vw;
-  height: 1500px;
+  height: 2500px;
   background: radial-gradient(48.43% 50.36% at 4.03% 55.6%, rgba(255, 79, 129, 0.20) 0%, rgba(138, 56, 245, 0.10) 46.63%, rgba(1, 16, 26, 0.00) 100%), radial-gradient(47.98% 50.07% at 88.13% 48.21%, rgba(255, 79, 129, 0.20) 0%, rgba(138, 56, 245, 0.10) 46.63%, rgba(1, 16, 26, 0.00) 100%);
   left: 0;
 }
@@ -1549,15 +1549,15 @@ p {
 /* 500, 600, 1000 */
 
 #FAQSDesktopAboutUs{
-  top: 2900px;
+  top: 4100px;
 }
 
 #PreFooterDesktopAboutUs{
-  top: 3500px;
+  top: 4700px;
 }
 
 #FooterDesktopAboutUs{
-  top: 4500px;
+  top: 5700px;
 }
 
 #HoldContactUsLeft{
@@ -2024,12 +2024,16 @@ input:focus, textarea:focus {
 
 #AboutUsSpacing{
   position: absolute;
-  top: calc(0px + 100vw);
+  top: calc(1600px + 110vw);
   left: 0;
 }
 
 #Mobile1, #Mobile2, #Mobile3, #Mobile4{
   width: 70vw;
+}
+
+#AdjustHeaderSizeAboutMobile{
+  font-size: 30px;
 }
 
 .adjustHeaderSize{
