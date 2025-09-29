@@ -2024,12 +2024,16 @@ input:focus, textarea:focus {
 
 #AboutUsSpacing{
   position: absolute;
-  top: calc(0px + 100vw);
+  top: calc(1600px + 110vw);
   left: 0;
 }
 
 #Mobile1, #Mobile2, #Mobile3, #Mobile4{
   width: 70vw;
+}
+
+#AdjustHeaderSizeAboutMobile{
+  font-size: 30px;
 }
 
 .adjustHeaderSize{
