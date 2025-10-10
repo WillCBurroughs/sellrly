@@ -45,7 +45,7 @@ export default function MobileBottomSection(props) {
                 <p className=''>
                   Start reaching more people today. Turning views into sales and unlock powerful analytics that maximize ROI.
                 </p>
-                <SecondaryButton text = "Start Growing Together" id = "secondaryLeftMobileBig"/>
+                <SecondaryButton text = "Start Growing Together" id = "secondaryLeftMobileBig" href = "https://cms.sellrly.com/account_registration"/>
               </div>
               
               <div 
@@ -54,7 +54,7 @@ export default function MobileBottomSection(props) {
                 <h2 className='bigdesktopmobile'>
                   Still Have Questions
                 </h2>
-                <SecondaryButton text = "Contact Us" id = "secondaryRightMobileBig"/>
+                <SecondaryButton text = "Contact Us" id = "secondaryRightMobileBig" href = "/Contact-Us"/>
 
               </div>
         </div>
