@@ -23,8 +23,16 @@ export default function NavBarDesktop() {
           <NavLink className="navlink-reset" to="Contact-Us" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} end><NavBarItem text="Contact Us" /></NavLink>
         </div>
         <div className='login-signup'>
-          <NavLink className="navlink-reset" to="Log-In" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} end><SecondaryButton text="Log In" /></NavLink>
-          <NavLink className="navlink-reset" to="Sign-Up" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} end><PrimaryButton text="Sign Up" /></NavLink>
+        <a
+          className="navlink-reset"
+          href="https://cms.sellrly.com/signin"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        ><SecondaryButton text="Log In" /></a>
+        <a
+          className="navlink-reset"
+          href="https://cms.sellrly.com/account_registration"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        ><PrimaryButton text="Sign Up" /></a>
         </div>
       </div>
     </nav>
