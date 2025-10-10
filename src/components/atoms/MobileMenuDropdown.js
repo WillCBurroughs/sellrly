@@ -38,18 +38,19 @@ export default function MobileMenuDropdown({ closeMenu, menuID }) {
       </NavLink>
 
       <div className='login-signup-mobile'>
-        <NavLink className="navlink-reset" to="/Log-In" end   onClick={() => {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-          closeMenu();
-        }}>
-          <SecondaryButton text="Log In" />
-        </NavLink>
-        <NavLink className="navlink-reset" to="/Sign-Up" end   onClick={() => {
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-          closeMenu();
-        }}>
-          <PrimaryButton text="Sign Up" />
-        </NavLink>
+        <a
+          className="navlink-reset"
+          href="https://cms.sellrly.com/signin"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        ><SecondaryButton text="Log In" /></a>
+        
+        <a
+        className="navlink-reset"
+        href="https://cms.sellrly.com/account_registration"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
+        <PrimaryButton text="Sign Up" /></a>
+
       </div>
     </div>
   );
