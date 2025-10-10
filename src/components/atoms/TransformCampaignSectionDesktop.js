@@ -14,7 +14,7 @@ function TransformCampaignSectionDesktop(props) {
                 <p className='TakePlatformCampaignDesktop'>
                     Take your platform to the next level, amplify your reach, and sell more than ever before
                 </p>
-                <SecondaryButton text = "Start a Campaign Now" id = "StartCampaignNowBTN" />
+                <SecondaryButton text = "Start a Campaign Now" id = "StartCampaignNowBTN" href = "https://cms.sellrly.com/account_registration"/>
             </div>
             <div className='TransformCampaignDesktopImageHolder'>
                 <img className='ImageInCampaignDesktop' src= {Shapes}/>

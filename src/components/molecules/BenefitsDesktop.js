@@ -58,7 +58,7 @@ function BenefitsDesktop(props) {
                 {tileData[activeTile].description}
             </p>
             <div className='ButtonHolderLeft'>
-                <SecondaryButton text = "Learn More" />
+                <SecondaryButton text = "Learn More" href = "/services" />
                 <PrimaryButton text = "Get Started" />
             </div>
         </div>

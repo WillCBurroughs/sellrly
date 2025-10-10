@@ -78,7 +78,7 @@ function ComparisonMobile() {
           </div>
 
           <div className='holdButton'>
-            <SecondaryButton text="Start a Campaign Now" />
+            <SecondaryButton text="Start a Campaign Now" href = "https://cms.sellrly.com/account_registration"/>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ function PreFooterDesktop(props) {
                 <p className='bigdesktopP'>
                   Start reaching more people today. Turning views into sales and unlock powerful analytics that maximize ROI.
                 </p>
-                <SecondaryButton text = "Start Growing Together" id = "secondaryLeftDesktopBig"/>
+                <SecondaryButton text = "Start Growing Together" id = "secondaryLeftDesktopBig" href = "https://cms.sellrly.com/account_registration"/>
               </div>
               
               <div 
@@ -29,7 +29,7 @@ function PreFooterDesktop(props) {
                 <h2 className='bigdesktopheader'>
                   Still Have Questions
                 </h2>
-                <SecondaryButton text = "Contact Us" id = "secondaryRightDesktopBig"/>
+                <SecondaryButton text = "Contact Us" id = "secondaryRightDesktopBig" href = "/Contact-Us"/>
 
               </div>
         </div>

@@ -3,9 +3,15 @@ import '../../index.css'
 
 function SecondaryButton(props) {
   return (
-    <button className='secondaryButton' id= {props.id}>
-      {props.text}
-    </button>
+    <a 
+      className = "navlink-reset"
+      href = {props.href}
+      onClick = {() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+    >
+      <button className='secondaryButton' id= {props.id}>
+        {props.text}
+      </button>
+    </a>
   );
 }
 
