@@ -82,7 +82,7 @@ export default function MobileBottomSection(props) {
         </div>
         <div className='holdBottomFooter'>
             <p>
-                2025 @ Sellrly All Rights Reserved
+                2025 @ Sellrly All Rights Reserved | <br></br> Powered by <a className = "custom-link" href='https://bcsolutions.dev'>BC Solutions </a>
             </p>
 
             <p>

@@ -33,7 +33,7 @@ function FooterDesktop(props) {
         </div>
         <div className='holdBottomFooter'>
             <p>
-                2025 @ Sellrly All Rights Reserved
+                2025 @ Sellrly All Rights Reserved | Powered by <a className = "custom-link" href='https://bcsolutions.dev'>BC Solutions </a>
             </p>
             <p>
                <Link to="/terms-of-service" className="custom-link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
