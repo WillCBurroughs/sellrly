@@ -11,9 +11,8 @@ function HoldBannersAboutUsDesktop(props) {
     <div className='holdServicesServices'>
         <AboutUsBannerDesktop 
             id = "row-reverse"
-            secondaryHeader = "The Audience Your Live Stream Deserves" 
-            paragraphContent = "Just set it and forget it—tell us who you want to reach, what you’re selling, and when you’re live.
-             We handle the rest, then deliver full analytics showing exactly how much bigger—and better—your audience has become."
+            secondaryHeader = "The Audience Your Stream Deserves" 
+            paragraphContent = "Just set it and forget it—tell us who you want to reach, what you’re selling, and we handle the rest, then deliver full analytics showing exactly how much bigger—and better—your audience has become."
             src = {FirstAboutUsBanner}
         />
         <AboutUsBannerDesktop

@@ -16,7 +16,7 @@ function AboutUsMobileTopSectionsContainer(props) {
             id = "AddStandardColors"
             addSpace = "AddSpaceTop"
             headerText = "We Built Sellrly to help you Grow Your Audience"
-            text = "Just set it and forget it—tell us who you want to reach, what you’re selling, and when you’re live. We handle the rest, then deliver full analytics showing exactly how much bigger—and better—your audience has become."
+            text = "Just set it and forget it—tell us who you want to reach, what you’re selling, and we handle the rest, then deliver full analytics showing exactly how much bigger—and better—your audience has become."
             src = {AboutUsImageMobile}
          />
         <AboutUsTopSections 

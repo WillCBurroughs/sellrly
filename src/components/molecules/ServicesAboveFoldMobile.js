@@ -12,7 +12,7 @@ function ServicesAboveFoldMobile(props) {
             <h1 className='adjustHeaderSize'>
                 Sell Like Never Before
             </h1>
-            <p className='adjustPSize'>Built for live sellers who want more than crumbs. We blast your stream across the web and show you exactly what’s working.</p>
+            <p className='adjustPSize'>Built for sellers who want more than crumbs. We blast your stream across the web and show you exactly what’s working.</p>
             <TertiaryButton text = "Get Started" />
         </div>
 

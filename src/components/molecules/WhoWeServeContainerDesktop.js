@@ -17,7 +17,7 @@ function WhoWeServeContainerDesktop(props) {
             emphasis = "Fashion" 
             headerText = "Boutique Clothing Brand"
             src = {Boutique}
-            firstLine = "Boost live stream views and sales during drops"
+            firstLine = "Boost stream views and sales during drops"
             secondLine = "Target ads for stylish buyers on fashion blogs"
             thirdLine = "Retarget viewers during peak hours"
             fourthLine = "High Audience Growth"
@@ -54,7 +54,7 @@ function WhoWeServeContainerDesktop(props) {
             id = "row-reverse"
             firstLine = "Launch a new smart home bundle during a 3-day live selling event"
             secondLine = "Campaign targeting tech enthusiasts and early adopters."
-            thirdLine = "Display ads on tech blogs, Reddit, and YouTube review channels synced to liveevent times"
+            thirdLine = "Display ads on tech blogs, Reddit, and YouTube review channels synced to live events"
             fourthLine = "Increased Click-Through Rate"
             fifthLine = "Bundle Sales Jump"
             sixthLine = "Revenue Lift"
