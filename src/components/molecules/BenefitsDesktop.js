@@ -21,19 +21,19 @@ function BenefitsDesktop(props) {
     const tileData = {
         sell: {
             label: "Sell Cross Platform",
-            description: `You could run ads on your platform... but that’s just yelling into a tiny room. And let’s be honest their algorithm has probably already ghosted you. \n \n Meanwhile, 95 MILLION live shoppers are out there... not watching you! \n \n Sellrly flips the script.`  
+            description: `You could run ads on your platform... but that’s just yelling into a tiny room. And let’s be honest their algorithm has probably already ghosted you. \n \n Meanwhile, 95 MILLION shoppers are out there... who never hear or see your message! \n \n Sellrly flips the script. We reach the audience you are missing.`  
         },
         views: {
             label: "Get More Views",
-            description: `Over 100M shoppers in the U.S. buy from live sellers. TikTok, Whatnot, and the rest? They only hit a slice of that crowd. \n \n Sellrly goes bigger—spanning the entire web and every platform to drop your stream in front of the right viewers, right when it count`
+            description: `Over 170M shoppers in the U.S. buy from social sellers. TikTok, Whatnot, and the rest? They only hit a slice of that crowd. \n \n Sellrly goes bigger—spanning the entire web and every platform to drop your stream in front of the right viewers, right when it counts`
         },
         analytics: {
             label: "Track Analytics",
-            description: `Analytics show you what’s actually working—who’s watching, clicking, and buying. Without it, you’re just throwing money at the algo and praying it hits. \n \n With our analytics, you can: \n Spot your hype moments (what made people click) \n Drop dead weight (stop wasting cash on flops) \n Double down on what slaps(scale the ads that bring the bag) \n \n “Track It. Hack It. Cash It.”`
+            description: `Analytics show you what’s actually working—who’s watching, clicking, and buying. Without it, you’re just throwing money at the algo and praying it hits. \n \n With our analytics, you can: \n Sellrly’s analytics spots your hype moments (what made people click) \n Drop dead weight (stop wasting cash on flops) \n Double down on what slaps(scale the ads that bring the bag) \n \n “Track It. Hack It. Cash It.”`
         },
         sales: {
             label: "Make More Sales",
-            description: `Running ads when you’re not live? Okay for awareness, but it won’t move product. \n \n Sellrly’s exclusive algorithm hits ready-to-buy shoppers while you’re streaming—getting you the right eyes at the right time to boost sales, stack profits, and grow your brand`
+            description: `Sellrly’s exclusive algorithm hits ready-to-buy shoppers while you’re streaming—getting you the right eyes at the right time to boost sales, stack profits, and grow your brand`
         }
     };
 

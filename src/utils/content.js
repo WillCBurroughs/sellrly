@@ -1,7 +1,7 @@
 export const accordionData = [
   {
     title: 'How does Sellrly’s self-serve advertising work?',
-    content: `Our platform lets you easily create and launch ad campaigns for your live streams. 
+    content: `Our platform lets you easily create and launch ad campaigns for your social selling streams. 
     Simply choose your audience, set your budget, and select your campaign timing. 
     We handle the delivery across the web while you focus on selling.`
   },

@@ -12,8 +12,8 @@ function ServicesServicesDesktop(props) {
     <div className='holdServicesServices'>
         <BenefitDesktopServices 
             headerText = "Total Reach Streaming" 
-            secondaryHeader = "The Audience Your Live Stream Deserves" 
-            paragraphContent = "You could run ads on their platform… but their algorithm already ghosted you. Meanwhile, 95 million live shoppers aren’t seeing you."
+            secondaryHeader = "The Audience Your Stream Deserves" 
+            paragraphContent = "You could run ads on their platform… but their algorithm already ghosted you. Meanwhile, 95 million shoppers aren’t seeing you."
             paragraphContentSecondary = "Sellrly flips the script. Your stream. Any platform. The right audience. More eyes = more sales."
             src = {ElectricSunset}
         />
@@ -28,15 +28,15 @@ function ServicesServicesDesktop(props) {
         <BenefitDesktopServices 
             headerText = "Get more views" 
             id = "GetMoreViews"
-            secondaryHeader = "100M+ U.S. shoppers buy from live sellers." 
-            paragraphContent = "100M+ U.S. shoppers buy from live sellers. TikTok and Whatnot only reach a slice."
+            secondaryHeader = "170M+ U.S. shoppers buy from social sellers." 
+            paragraphContent = "170M+ U.S. shoppers buy from social sellers. TikTok and Whatnot only reach a slice."
             paragraphContentSecondary = "Sellrly goes bigger pushing your stream across the entire web to the right people, at the right time."
             src = {Glowfall}
         />
         <BenefitDesktopServices
             headerText = "Make more sales" 
             id = "MakeMoreSales"
-            secondaryHeader = "Running ads when you’re not live?" 
+            secondaryHeader = "Running ads when you’re not streaming?" 
             paragraphContent = "Cool for awareness—terrible for sales. Sellrly’s algorithm finds ready-to-buy shoppers while you’re streaming, putting your brand in front of the right eyes at the right time."
             paragraphContentSecondary = "More sales. More growth. No wasted spend."
             src = {LightPurple}

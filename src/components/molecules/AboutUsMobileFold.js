@@ -11,9 +11,9 @@ function AboutUsMobileFold(props) {
                 More Eyes. More Buyers. No Walls.
             </h1>
             <p className='adjustPSize'>
-                We built Sellrly because we’ve been in your shoes—growing a live selling audience is tough, 
+                We built Sellrly because we’ve been in your shoes—finding customers is tough, 
                 no matter how great your products or stream are. Sellrly gets your stream in front of the right people, 
-                across the entire web, exactly when you’re live—cutting through the noise that keeps you invisible on other platforms.
+                across the entire web, cutting through the noise that keeps you invisible on other platforms.
             </p>
 
             <TertiaryButton text = "Get Started" />

@@ -12,7 +12,7 @@ function ServicesAboveFold(props) {
             <h1>
                 Sell Like Never Before
             </h1>
-            <p>Built for live sellers who want more than crumbs. We blast your stream across the web and show you exactly what’s working.</p>
+            <p>Built for sellers who want more than crumbs. We blast your stream across the web and show you exactly what’s working.</p>
             <TertiaryButton text = "Get Started" />
         </div>
 

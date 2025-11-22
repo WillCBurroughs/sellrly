@@ -27,7 +27,7 @@ function VideoMobileHome(props) {
       </div>
       <div>
         <h1 className='adjustHeaderSize'>
-          What makes Sellrly the best platform for social sellers?
+          What makes Sellrly the best platform for social sellers to promote their streams?
         </h1>
       </div>
       <div className='videoAreaMobile' onClick={handlePlay}>

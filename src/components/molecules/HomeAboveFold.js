@@ -8,6 +8,7 @@ function HomeAboveFold(props) {
     <div className='contentBlock'>
         <div className='leftHeroAboveFold'>
             <h1>
+                Social Sellers! <br></br>
                 Outsell. Outshine. Outdo.
             </h1>
             <p>You’ve worked hard. You picked great merchandise. Your set is picture-perfect. 
@@ -17,7 +18,7 @@ function HomeAboveFold(props) {
                 It’s not you—you did your job. But let’s face it: there’s a lot of noise out there.
             </p>
             <p>
-                <strong>Sellrly </strong>changes all that.
+                <strong>Sellrly </strong>changes all that. We help you reach the audience your platform is missing.
             </p>
             <TertiaryButton text = "Get Started" />
         </div>

@@ -18,7 +18,7 @@ function WhoWeServeContainerMobile(props) {
             emphasis = "Fashion" 
             headerText = "Boutique Clothing Brand"
             src = {Boutique}
-            firstLine = "Boost live stream views and sales during drops"
+            firstLine = "Boost stream views and sales during drops"
             secondLine = "Target ads for stylish buyers on fashion blogs"
             thirdLine = "Retarget viewers during peak hours"
             fourthLine = "High Audience Growth"

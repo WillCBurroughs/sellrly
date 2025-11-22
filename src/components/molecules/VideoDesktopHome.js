@@ -26,7 +26,7 @@ function VideoDesktopHome(props) {
       </div>
       <div>
         <h1 id='forJump'>
-          What makes Sellrly the best platform for social sellers?
+          What makes Sellrly the best platform for social sellers to promote their streams?
         </h1>
       </div>
       <div className='videoArea' onClick={handlePlay}>
